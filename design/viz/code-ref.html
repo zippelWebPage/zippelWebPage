@@ -1,0 +1,157 @@
+<!Doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="HTML,CSS,JavaScript,THREE.js">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lifestyle impact</title>
+  <style>
+  body{margin:0;}
+  </style>
+</head>
+<body>
+  <button id="generate" style="position:absolute;">Save as SVG</button>
+  <div id="container"></div>
+  <script type="text/javascript"  src="js/d3.min.js"></script>
+  <script type="text/javascript"  src="js/blob.js"></script>
+  <script type="text/javascript"  src="js/fileSaver.js"></script>
+  <script type="text/javascript"  src="js/config.js"></script>
+  <script>
+
+  var colors = {"cyan":"#77bec6","yellow":"#ffcd2e","magenta":"#f4698b","magenta-dark":"#b84d67","cyan-dark":"#508d94","yellow-dark":"#ba8e00"}
+  let cScale = d3.scaleLinear().range(["#89d6d6","#c15f41"]);
+
+  var margin = {top: 50, right: 80, bottom: 30, left: 150},
+  width = 600 - margin.left - margin.right,
+  height = 500 - margin.top - margin.bottom;
+
+
+  var svg = d3.select("#container").append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom );
+  let a = svg.append("g")
+  .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+
+  var xGraph = d3.scaleLinear().range([0,width]);
+  var yGraph = d3.scaleBand().range([0,height]).paddingOuter(1).paddingInner(0.5);
+
+  d3.csv("../data/nessential.csv").then( function(data) {
+    console.log(data);
+    var nodes=[];
+    var barWidth = 20;
+
+    data.forEach(function(d) {
+      d.id = d.cluster+"-"+d.subcluster;
+    });
+
+    xGraph.domain([0,d3.max(data,d=>+d.impact)]);
+    yGraph.domain(d3.map(data,function(d){ return d.id;}));
+    cScale.domain([55,80]);
+
+    data.forEach(function(d) {
+      nodes.push({radius:3,x:xGraph(+d.impact),y:yGraph(d.id)+6});
+    });
+    // nodes[0].fx = nodes[0].x;
+    // nodes[0].fy = nodes[0].y;
+
+    console.log(nodes);
+    var force = d3.forceSimulation(nodes)
+    //.force('charge', d3.forceManyBody().strength(0.25))
+    //.force('center', d3.forceCenter(0,0))
+    // .force('forceX', d3.forceX(e => e.x))
+    // .force('forceY', d3.forceY(e => e.y))
+    .force('collide', d3.forceCollide().strength(.01).radius(e => e.radius))
+    .on("tick", tick)
+    .stop();
+
+    force.tick(80);
+    force.stop();
+
+    //nodes.shift();
+    // nodes2.push(nodes);
+
+    var subclusters = d3.group(data,function(d){return d.id});
+    //make box plot outlines
+    subclusters.forEach((sub, s) => {
+      var impacts = [];
+      for(t=0;t<sub.length;t++){
+        impacts.push(+sub[t].impact);
+      }
+      impacts.sort(d3.ascending);
+      var lower = d3.quantile(impacts,0.25);
+      var upper = d3.quantile(impacts,0.75);
+      console.log(s, impacts, lower, upper);
+
+      a.append("line")
+      .attr("x1",xGraph(impacts[0]))
+      .attr("x2",xGraph(impacts[impacts.length-1]))
+      .attr("y1",yGraph(s)+3)
+      .attr("y2",yGraph(s)+3)
+      .attr("stroke",function(d){return "blue";})
+      .attr("stroke-width",2);
+
+      a.append("rect")
+      .attr("x",function(d){return xGraph(lower)})
+      .attr("y",function(d){return yGraph(s)-5})
+      .attr("width",function(d){return xGraph(upper-lower);})
+      .attr("fill","white")
+      .attr("height",barWidth)
+      .attr("stroke",function(d){return "blue";})
+      .attr("stroke-width",2)
+
+
+            a.append("line")
+            .attr("x1",xGraph(d3.median(impacts)))
+            .attr("x2",xGraph(d3.median(impacts)))
+            .attr("y1",yGraph(s)-5)
+            .attr("y2",yGraph(s)-5+barWidth)
+            .attr("stroke",function(d){return "blue";})
+            .attr("stroke-width",2);
+    });
+
+    a.selectAll("circles").data(nodes)
+    .enter().append("circle")
+    .attr("cx",function(d){return d.x})
+    .attr("cy",function(d){return d.y})
+    .attr("r",function(d){return d.radius - 1.5})
+    .attr("opacity",0.2);
+
+
+    a.append("g")
+    .attr("transform", "translate(0,"+height+")")
+    .call(d3.axisBottom(xGraph));
+    a.append("g")
+    .call(d3.axisLeft(yGraph));
+  });
+
+  function tick() {
+    for ( i = 0; i < nodes.length; i++ ) {
+      var node = nodes[i];
+      node.cx = node.x;
+      node.cy = node.y;
+    }
+  }
+
+  //----------------svg export code
+
+  d3.select("#generate")
+  .on("click", writeDownloadLink);
+
+  function writeDownloadLink(){
+    try {
+      var isFileSaverSupported = !!new Blob();
+    } catch (e) {
+      alert("blob not supported");
+    }
+
+    var html = d3.select("svg")
+    .attr("title", "test2")
+    .attr("version", 1.1)
+    .attr("xmlns", "http://www.w3.org/2000/svg")
+    .node().parentNode.innerHTML;
+
+    var blob = new Blob([html], {type: "image/svg+xml"});
+    saveAs(blob, "viz.svg");
+  };
+  </script>
+</body>
+</html>
