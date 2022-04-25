@@ -207,7 +207,7 @@ function makeNodesLinks(){
       if(d.network == false){
         var randx = Math.random()*width - Math.random()*width;
         var randy = Math.random()*height - Math.random()*height;
-        nodes.push({radius:sizeScale(+d.cite),x:randx,y:randy,id:d.id,type:d.type,date:d.datef,name:d.name,cite:d.cite,set:d.set,degree:d.degree});
+        nodes.push({radius:sizeScale(+d.cite),x:randx,y:randy,id:d.id,type:d.type,date:d.datef,name:d.name,cite:d.cite,set:d.set,degree:d.degree, doctype:d.doctype});
         d.network = true;
       }
     }
@@ -301,7 +301,7 @@ function clicked(){
     //highlight neighbors
     highlightNeighbors(clickData.id);
     //add basic info
-    d3.select("#infoText").html("<p><span class='"+clickData.type+"'>"+clickData.name+"</span><br/><span class='year'>"+yearFormat(clickData.date)+"</span><br/><span class='set'>"+clickData.set+"</span><br/><span class='cite'>Citations: "+clickData.cite+"</span></p>");
+    d3.select("#infoText").html("<p><span class='"+clickData.type+"'>"+clickData.name+"</span><br/><span class='year'>"+yearFormat(clickData.date)+"</span><br/><span class='set'>"+clickData.set+"</span><br/><span class='doctype-"+clickData.type+"'>"+clickData.doctype+"<br/></span><span class='cite'>Citations: "+clickData.cite+"</span></p>");
   }
 }
 
