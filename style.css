@@ -1,0 +1,78 @@
+body{
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li p{
+  /* margin-top: 0;
+  margin-bottom: 0; */
+}
+
+/* ================== svg and UI containers ================*/
+#container,#info{
+  float:left;
+}
+#info{
+  width: 200px;
+}
+
+/* ===================  UI elements =======================*/
+select, button{
+  background-color: transparent;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  padding: 1px 5px;
+  margin: 2px;
+}
+
+button{
+  width: 150px;
+}
+
+button:hover, button:active{
+  border: 1.5px solid #000;
+  background-color: #eee;
+}
+
+.bullet{
+  float: left;
+  margin-right: 7px;
+  font-size: 150%;
+  margin-top: -2px;
+}
+
+#yearSlider{
+
+}
+#yearLabel{
+  margin-bottom: -3px;
+}
+
+/* ===================  Selected Item & Text Styling =====*/
+.selected{
+  stroke:#000000;
+}
+span.pub{
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+span.author{
+  text-transform: capitalize;
+}
+span.set{
+  font-size: 12px;
+  font-weight: 800;
+}
+span.cite{
+  font-size: 12px;
+}
+span.year{
+  font-size: 12px;
+}
