@@ -66,7 +66,7 @@ span.pub{
 span.author{
   text-transform: capitalize;
 }
-span.set{
+span.set, span.doctype-author{
   font-size: 12px;
   font-weight: 800;
 }
@@ -75,4 +75,7 @@ span.cite{
 }
 span.year{
   font-size: 12px;
+}
+span.doctype-pub{
+  display:none;
 }
