@@ -96,7 +96,6 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList.csv").then( functi
         d.msi_detail = "not_msi";
         if(d.carnegie_hsi == "True"){ d.msi_detail = "hsi"}
         if(d.carnegie_hbcu == "True"){d.msi_detail ="hbcu"}
-
       })
       edgeData.forEach(function(d){
         d.datef = yearParse(d.Year);
@@ -132,7 +131,7 @@ function setScales(){
   //total citations yScale
   yGraph.domain(d3.extent(nData,d=>+d.cite));
   sizeScale.domain(d3.extent(nData,d=>+d.cite));
-  degScale.domain([0,13]);
+  degScale.domain([0,26]);
   colorScale.domain([yearParse(2000),yearParse(2011),yearParse(2022)])
 }
 
@@ -461,6 +460,7 @@ function calcDegrees(){
     var deg = d3.selectAll(".link-"+nid).size();
     nodes[n].degree = deg;
   }
+  degScale.domain(d3.extent(nodes,d=>+d.degree));
 }
 
 function updateLegend(colorBy){
@@ -482,6 +482,9 @@ function playPause(){
   }else{
     play = true;
     button.html("Pause animation");
+    if(curYear == 2022){
+      yearChange(2000);
+    }
     animateYear();
   }
 }
