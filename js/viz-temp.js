@@ -13,7 +13,7 @@ var nGroup = svg.append("g").attr("transform","translate("+width/2+","+height/2+
 var xGraph = d3.scaleTime().range([0,width]);
 var yGraph = d3.scaleLinear().range([height-200,0]);
 var sizeScale = d3.scaleLinear().range([3,20]);
-var degScale = d3.scaleLinear().range([3,20]);
+var degScale = d3.scaleLinear().range([2,15]);
 var colorScale = d3.scaleTime().range(["#A5FFD6","#BAD7F7","#EE5353"])
 var yearParse = d3.timeParse("%Y");
 var dateParse = d3.timeParse("%Y-%m-%d");
@@ -207,7 +207,7 @@ function makeNodesLinks(){
       if(d.network == false){
         var randx = Math.random()*width - Math.random()*width;
         var randy = Math.random()*height - Math.random()*height;
-        nodes.push({radius:sizeScale(+d.cite),x:randx,y:randy,id:d.id,type:d.type,date:d.datef,name:d.name,cite:d.cite,set:d.set,degree:d.degree, doctype:d.doctype});
+        nodes.push({radius:sizeScale(+d.cite)-1,x:randx,y:randy,id:d.id,type:d.type,date:d.datef,name:d.name,cite:d.cite,set:d.set,degree:d.degree, doctype:d.doctype});
         d.network = true;
       }
     }
@@ -276,16 +276,6 @@ function makeNodesLinks(){
     if(links[l].type == typeToRemove){
       links.splice(l,1);
     }
-  }
-
-  //calculate degree for each node
-  for(n=0;n<nodes.length;n++){
-    var nid = nodes[n].id;
-    var deg = d3.selectAll(".link-"+nid).size();
-    nodes[n].degree = +deg;
-    // if(curScaling == "deg"){
-    //   nodes[n].radius = degScale(+nodes[n].degree);
-    // }
   }
 
   console.log(nodes,links);
@@ -394,18 +384,20 @@ function updateSim(){
     .attr("class",function(d){return "link-"+d.source+" link-"+d.target});
   link = lGroup.selectAll("line").data(links,d=>d.id);
 
-  node = nGroup.selectAll("circle").data(nodes,d=>d.id);//.join();
+  node = nGroup.selectAll("circle").data(nodes,d=>d.id);
   //update exisiting ID's
-  node.attr("id",d=>"node-"+d.id).attr("r",d=>d.radius);
+  node.attr("id",d=>"node-"+d.id);
+  if(curScaling == "cite"){node.attr("r",d=>d.radius);}else{
+    calcDegrees();
+    node.attr("r",d=>degScale(d.degree)-1);
+  }
   //remove culled nodes
   node.exit().remove();
   //add new nodes
   node.enter().append("circle")
-    .attr("id",function(d){
-      return "node-"+d.id}
-    )
+    .attr("id",function(d){return "node-"+d.id})
     .attr("class",d=>d.name)
-    .attr("r", d=>d.radius)
+    .attr("r", function(d){if(curScaling =="cite"){return d.radius}else{return degScale(d.degree)-1}})
     .attr("fill",d=>colorScale(d.date))
     .attr("cx",d=>d.x)
     .attr("cy",d=>d.y)
@@ -457,10 +449,18 @@ function reScale(){
   }else{
     curScaling = 'deg';
     button.html("Scale by citations");
+    calcDegrees();
   }
-    curScaling = scaleBy;
-    makeNodesLinks();
-    updateSim();
+  updateSim();
+}
+
+function calcDegrees(){
+  //calculate current degree for each node
+  for(n=0;n<nodes.length;n++){
+    var nid = nodes[n].id;
+    var deg = d3.selectAll(".link-"+nid).size();
+    nodes[n].degree = deg;
+  }
 }
 
 function updateLegend(colorBy){
