@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="keywords" content="HTML,CSS,JavaScript,THREE.js">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
   <title>The Advance Community</title>
 </head>
 <body>
@@ -14,10 +14,15 @@
     <button onclick="toggleTimeline()" id="toggleTimelineButton">Show timeline</button>
     <button onclick="togglePubs()" id="togglePubsButton">Hide publications</button>
     <button onclick="playPause()" id="playPauseButton">Play animation</button>
+    <button onclick="playPauseIdle()" id="idleButton">Highlight Modules</button>
     <button onclick="reScale()" id="reScaleButton">Scale By degree</button>
+    <!-- Search Bar and result list -->
+    <p>Search</p>
+    <input onchange="searchFor(this.value)"></input>
+    <ul id="searchResults"></ul>
     <!-- slider for years -->
     <p id="yearLabel">2008</p>
-    <input type="range" min="2000" max="2022" value="2022" step="1" class="slider" id="yearSlider" onchange="yearSlider(this.value)">
+    <input type="range" min="2000" max="2022" value="2022" step="1" class="slider" id="yearSlider" onchange="yearSlider(this.value)" onenter="yearSlider(this.value)">
 
     <!-- recolor dropdown -->
     <select id="colorDropdown" class="dropdown" onchange="reColor(this.value)">
@@ -34,6 +39,6 @@
     <ul id="legend"></ul>
   </div>
   <script type="text/javascript"  src="js/d3.min.js"></script>
-  <script type="text/javascript"  src="js/viz-temp.js?v=3"></script>
+  <script type="text/javascript"  src="js/viz-temp.js?v=4"></script>
 </body>
 </html>
