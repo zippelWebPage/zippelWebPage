@@ -282,6 +282,9 @@ function makeNodesLinks(){
 }
 
 function clicked(){
+  if(play){playPause();}
+  if(runIdle){playPauseIdle();}
+
   if(this.classList.contains("selected")){
     clearSelection();
   }else{
@@ -290,8 +293,6 @@ function clicked(){
     var clickData = this.__data__;
     //highlight neighbors
     highlightNeighbors(clickData.id);
-    // var component = getComponent([clickData.id]);
-    // highlight(component);
     //add basic info
     d3.select("#infoText").html("<p><span class='"+clickData.type+"'>"+clickData.name+"</span><br/><span class='year'>"+yearFormat(clickData.date)+"</span><br/><span class='set'>"+clickData.set+"</span><br/><span class='doctype-"+clickData.type+"'>"+clickData.doctype+"<br/></span><span class='cite'>Citations: "+clickData.cite+"</span></p>");
   }
@@ -539,6 +540,9 @@ function searchFor(searchTerm){
           }
         });
     }
+  }
+  if(results.selectAll('li').size()<1){
+    results.append("li").html("<i>No results</i>")
   }
 }
 
