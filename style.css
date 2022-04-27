@@ -3,23 +3,34 @@ body{
   font-weight: 200;
 }
 
-#legend {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 li p{
-  /* margin-top: 0;
-  margin-bottom: 0; */
+  margin: 6px 0;
 }
 
+hr{
+  border: 0.5px solid #ccc;
+}
+
+
 /* ================== svg and UI containers ================*/
-#container,#info{
+#container,#sidebar, #searchPanel{
   float:left;
 }
-#info{
+#sidebar, #searchPanel{
   width: 200px;
+}
+#sidebar{
+  padding-left: 10px;
+}
+#searchResults{
+  max-height: 80vh;
+  overflow-y: scroll;
 }
 
 /* ===================  UI elements =======================*/
@@ -38,6 +49,10 @@ button{
 button:hover, button:active{
   border: 1.5px solid #000;
   background-color: #eee;
+}
+
+#searchPanel input{
+  margin-bottom: 8px;
 }
 
 .bullet{
@@ -60,6 +75,11 @@ button:hover, button:active{
 }
 .selected-result{
   color:#ff0000;
+}
+#searchResults li{
+  margin-left: 10px;
+  padding: 2px 0;
+  text-transform: capitalize;
 }
 span.pub{
   font-style: italic;

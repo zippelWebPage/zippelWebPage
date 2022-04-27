@@ -3,27 +3,27 @@
   <meta charset="utf-8">
   <meta name="keywords" content="HTML,CSS,JavaScript,THREE.js">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
   <title>The Advance Community</title>
 </head>
 <body>
-  <div id="container"></div>
-  <div id="info">
-    <div id="infoText"></div>
+  <div id="sidebar">
+    <h3>Visualization Controls</h3>
     <!-- button to toggle layout -->
     <button onclick="toggleTimeline()" id="toggleTimelineButton">Show timeline</button>
     <button onclick="togglePubs()" id="togglePubsButton">Hide publications</button>
     <button onclick="playPause()" id="playPauseButton">Play animation</button>
     <button onclick="playPauseIdle()" id="idleButton">Highlight Modules</button>
     <button onclick="reScale()" id="reScaleButton">Scale By degree</button>
-    <!-- Search Bar and result list -->
-    <p>Author Search</p>
-    <input onchange="searchFor(this.value)"></input>
-    <ul id="searchResults"></ul>
+    <hr/>
+
     <!-- slider for years -->
+    <h3>Selected Year</h3>
     <p id="yearLabel">2008</p>
     <input type="range" min="2000" max="2022" value="2022" step="1" class="slider" id="yearSlider" onchange="yearSlider(this.value)" onenter="yearSlider(this.value)">
+    <hr/>
 
+    <h3>Color Scheme</h3>
     <!-- recolor dropdown -->
     <select id="colorDropdown" class="dropdown" onchange="reColor(this.value)">
       <option value="type">Node Type</option>
@@ -38,7 +38,23 @@
     </select>
     <ul id="legend"></ul>
   </div>
+  <div id="container"></div>
+  <div id="searchPanel">
+    <h3>Selected Node</h3>
+    <div id="infoText">
+      <p><span class="author">Name</span><br><span class="year">First Year Published</span>
+        <br><span class="set">Affiliation</span><br><span class="doctype-author">Doctype<br></span>
+        <span class="cite">Citation Count</span></p>
+    </div>
+    <hr>
+    <!-- Search Bar and result list -->
+    <h3>Author Search</h3>
+    <input onchange="searchFor(this.value)"></input>
+    <ul id="searchResults"></ul>
+  </div>
+
+
   <script type="text/javascript"  src="js/d3.min.js"></script>
-  <script type="text/javascript"  src="js/viz-temp.js?v=4"></script>
+  <script type="text/javascript"  src="js/viz-temp.js?v=5"></script>
 </body>
 </html>
