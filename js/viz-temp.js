@@ -51,7 +51,7 @@ var legendLabels = {
 }
 var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation,chosenNodes = [];
 var dataFolder = "data/";
-var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1000, runIdle = true;
+var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1000, runIdle = false;
 
 d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( function(edgeData) {
   d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v2.csv").then( function(edgeDataNoPubs) {
