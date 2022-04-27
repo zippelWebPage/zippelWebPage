@@ -8,6 +8,7 @@ var svg = d3.select("#container").append("svg")
 let a = svg.append("g")
 .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
+svg.append("rect").attr("x",0).attr("y",0).attr("width",width).attr("height",height).attr("fill","white").on("click",clearSelection);
 var lGroup = svg.append("g").attr("transform","translate("+width/2+","+height/2+")");
 var nGroup = svg.append("g").attr("transform","translate("+width/2+","+height/2+")");
 var xGraph = d3.scaleTime().range([0,width]);
@@ -38,8 +39,8 @@ var legendLabels = {
   "author":"Author",
   "authorHigh": "Focus on",
   "authorLow": "Does not focus on",
-  "woman":"Female",
-  "man":"Male",
+  "woman":"Woman",
+  "man":"Man",
   "unknown":"Unknown",
   "hbcu":"Historically black institution",
   "hsi": "Hispanic serving institution",
@@ -51,7 +52,7 @@ var legendLabels = {
 }
 var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation,chosenNodes = [];
 var dataFolder = "data/";
-var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1000, runIdle = false;
+var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1500, runIdle = false;
 
 d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( function(edgeData) {
   d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v2.csv").then( function(edgeDataNoPubs) {
@@ -127,7 +128,7 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( fun
 
 function setScales(){
   //check years in pubdata and author data for x Scale
-  xGraph.domain(d3.extent(nData,d=>+d.datef));
+  xGraph.domain([yearParse(1999),yearParse(2022)]);
   //total citations yScale
   yGraph.domain(d3.extent(nData,d=>+d.cite));
   sizeScale.domain(d3.extent(nData,d=>+d.cite));
@@ -289,6 +290,8 @@ function clicked(){
     var clickData = this.__data__;
     //highlight neighbors
     highlightNeighbors(clickData.id);
+    // var component = getComponent([clickData.id]);
+    // highlight(component);
     //add basic info
     d3.select("#infoText").html("<p><span class='"+clickData.type+"'>"+clickData.name+"</span><br/><span class='year'>"+yearFormat(clickData.date)+"</span><br/><span class='set'>"+clickData.set+"</span><br/><span class='doctype-"+clickData.type+"'>"+clickData.doctype+"<br/></span><span class='cite'>Citations: "+clickData.cite+"</span></p>");
   }
@@ -499,11 +502,10 @@ function playPauseIdle(){
     runIdle = false
     clearTimeout(idleTimeout);
     button.html("Highlight Modules");
-    clearSelection();
   }else{
     clearTimeout(animationTimeout);
     runIdle = true;
-    button.html("Hide Modules");
+    button.html("Pause Modules");
     idle();
   }
 }
@@ -519,10 +521,11 @@ function animateYear(){
 }
 
 function searchFor(searchTerm){
+  searchTerm = searchTerm.toLowerCase();
   var results = d3.select("#searchResults");
   results.html('');
   for(n=0;n<nodes.length;n++){
-    if(nodes[n].name.includes(searchTerm)){
+    if(nodes[n].name.includes(searchTerm) && nodes[n].type == "author"){
       results.append("li").text(nodes[n].name)
         .attr("nodeid",nodes[n].id)
         .on("click",function(){
@@ -540,14 +543,10 @@ function searchFor(searchTerm){
 }
 
 function idle(){
-  d3.selectAll("line").attr("opacity",0.1);
-  d3.selectAll("circle").attr("opacity",0.1);
-
   var chosen = getNewChosenNode();
   var component = getComponent([chosen]);
-  for(c=0;c<component.length;c++){
-    highlight(component[c]);
-  }
+  highlight(component);
+  chosenNodes.concat(component);
   if(runIdle){
     idleTimeout = setTimeout(function(){
       idle();
@@ -593,9 +592,14 @@ function getNeighborIds(nodeArray){
   return connected;
 }
 
-function highlight(nodeID){
-  d3.select("#node-"+nodeID).attr("opacity",0.8);
-  d3.selectAll(".link-"+nodeID).attr("opacity",1);
+function highlight(nodeArray){
+  d3.selectAll("line").attr("opacity",0.1);
+  d3.selectAll("circle").attr("opacity",0.1);
+
+  for(m=0;m<nodeArray.length;m++){
+    d3.select("#node-"+nodeArray[m]).attr("opacity",0.8);
+    d3.selectAll(".link-"+nodeArray[m]).attr("opacity",1);
+  }
 }
 
 function getNewChosenNode(){
