@@ -49,14 +49,14 @@ var legendLabels = {
   "2011":"2011",
   "2022":"2022"
 }
-var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation;
+var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation,chosenNodes = [];
 var dataFolder = "data/";
-var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout;
+var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1000, runIdle = true;
 
-d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList.csv").then( function(edgeData) {
-  d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_FullEdgeList.csv").then( function(edgeDataNoPubs) {
+d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( function(edgeData) {
+  d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v2.csv").then( function(edgeDataNoPubs) {
   d3.csv(dataFolder+"ADVANCE_Outcome_Publications.csv").then( function(pubData) {
-    d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_AuthorInfo_v3.csv").then( function(authorData) {
+    d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_AuthorInfo_v4.csv").then( function(authorData) {
       pubData.forEach(function(d){
         d.datef = dateParse(d.Date);
         d.cite = +d.CitationCount;
@@ -296,6 +296,7 @@ function clicked(){
 
 function clearSelection(){
   d3.selectAll(".selected").classed("selected",false);
+  d3.selectAll(".selected-result").classed("selected-result",false);
   d3.selectAll("line").attr("opacity",0.6);
   d3.selectAll("circle").attr("opacity",1);
 }
@@ -366,6 +367,9 @@ function yearSlider(year){
   yearChange(year);
   makeNodesLinks();
   updateSim();
+  if(runIdle){
+    playPauseIdle();
+  }
 }
 
 function yearChange(year){
@@ -489,6 +493,21 @@ function playPause(){
   }
 }
 
+function playPauseIdle(){
+  var button = d3.select("#idleButton");
+  if(runIdle){
+    runIdle = false
+    clearTimeout(idleTimeout);
+    button.html("Highlight Modules");
+    clearSelection();
+  }else{
+    clearTimeout(animationTimeout);
+    runIdle = true;
+    button.html("Hide Modules");
+    idle();
+  }
+}
+
 function animateYear(){
   if(curYear < 2022 && play == true){
     animationTimeout = setTimeout(function(){
@@ -498,6 +517,100 @@ function animateYear(){
     },1000)
   }
 }
+
+function searchFor(searchTerm){
+  var results = d3.select("#searchResults");
+  results.html('');
+  for(n=0;n<nodes.length;n++){
+    if(nodes[n].name.includes(searchTerm)){
+      results.append("li").text(nodes[n].name)
+        .attr("nodeid",nodes[n].id)
+        .on("click",function(){
+          if(this.classList.contains("selected-result")){
+            console.log("selected already");
+            clearSelection();
+          }else{
+            d3.select("#node-"+d3.select(this).attr("nodeid")).dispatch('click');
+            d3.selectAll(".selected-result").classed("selected-result",false);
+            this.classList.add("selected-result");
+          }
+        });
+    }
+  }
+}
+
+function idle(){
+  d3.selectAll("line").attr("opacity",0.1);
+  d3.selectAll("circle").attr("opacity",0.1);
+
+  var chosen = getNewChosenNode();
+  var component = getComponent([chosen]);
+  for(c=0;c<component.length;c++){
+    highlight(component[c]);
+  }
+  if(runIdle){
+    idleTimeout = setTimeout(function(){
+      idle();
+    },idleTimer)
+  }
+}
+
+function getComponent(nodeArray){
+  //get neighbors
+  neighbors = getNeighborIds(nodeArray);
+  var newNeighbors = false;
+
+  //if mark new neighbors
+  for(n=0;n<neighbors.length;n++){
+    if(nodeArray.includes(neighbors[n]) == false){
+      newNeighbors = true;
+      nodeArray.push(neighbors[n]);
+    }
+  }
+  //if new, do recursion, if not, return list
+  if(newNeighbors){
+    return getComponent(nodeArray)
+  }else{
+    return nodeArray;
+  }
+}
+
+function getNeighborIds(nodeArray){
+  var connected = nodeArray;
+  for(m=0;m<nodeArray.length;m++){
+    var lanks = d3.selectAll(".link-"+nodeArray[m]).attr("opacity",1);
+
+    lanks.each(function(d){
+      if(connected.includes(d.source.id) == false){
+        connected.push(d.source.id);
+      }
+      if(connected.includes(d.target.id) == false){
+        connected.push(d.target.id);
+      }
+    });
+  }
+
+  return connected;
+}
+
+function highlight(nodeID){
+  d3.select("#node-"+nodeID).attr("opacity",0.8);
+  d3.selectAll(".link-"+nodeID).attr("opacity",1);
+}
+
+function getNewChosenNode(){
+  if(chosenNodes.length > nodes.length - 5){
+    chosenNodes = [];
+  }
+  var random = Math.floor(Math.random()*nodes.length);
+  var nodeID = nodes[random].id;
+  if(chosenNodes.includes(nodeID)){
+    getNewChosenNode();
+  }else{
+    return nodeID;
+  }
+}
+
 
 //====== concentric ring functions ========
 function cartesian2polar(x, y){
