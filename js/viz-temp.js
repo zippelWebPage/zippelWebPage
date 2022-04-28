@@ -14,7 +14,7 @@ var nGroup = svg.append("g").attr("transform","translate("+width/2+","+height/2+
 var xGraph = d3.scaleTime().range([0,width]);
 var yGraph = d3.scaleLinear().range([height-200,0]);
 var sizeScale = d3.scaleLinear().range([3,20]);
-var degScale = d3.scaleLinear().range([2,15]);
+var degScale = d3.scaleLinear().range([3,20]);
 var colorScale = d3.scaleTime().range(["#A5FFD6","#BAD7F7","#EE5353"])
 var yearParse = d3.timeParse("%Y");
 var dateParse = d3.timeParse("%Y-%m-%d");
@@ -37,8 +37,8 @@ var legendLabels = {
   "intersectional":"Intersectional",
   "other":"Other",
   "author":"Author",
-  "authorHigh": "Focus on",
-  "authorLow": "Does not focus on",
+  "authorHigh": "Expertise In",
+  "authorLow": "Not Expert In",
   "woman":"Woman",
   "man":"Man",
   "unknown":"Unknown",
@@ -52,7 +52,7 @@ var legendLabels = {
 }
 var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation,chosenNodes = [];
 var dataFolder = "data/";
-var showPubs = true, authRings = false, curYear = 2008, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1500, runIdle = false;
+var showPubs = true, authRings = false, curYear = 2022, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1500, runIdle = false;
 
 d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( function(edgeData) {
   d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v2.csv").then( function(edgeDataNoPubs) {
@@ -121,6 +121,7 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( fun
       createGraph();
       updateLegend("type");
       yearChange(curYear);
+      reScale();
     });
   });
 });
@@ -303,6 +304,7 @@ function clearSelection(){
   d3.selectAll(".selected-result").classed("selected-result",false);
   d3.selectAll("line").attr("opacity",0.6);
   d3.selectAll("circle").attr("opacity",1);
+  d3.select("#infoText").html('');
 }
 
 function highlightNeighbors(nodeID){
