@@ -28,7 +28,9 @@ var colors = {
   "date":{"pub":"#f4e1a1","2000":"#A5FFD6","2011":"#BAD7F7","2022":"#EE5353"},
   "gender":{"pub":"#f4e1a1","woman":"#fc8f95","man":"#8fa1fc","unknown":"#ccc"},
   "msi":{"pub":"#f4e1a1","msi":"#52B2EE","not_msi":"#eee"},
-  "msi_detail":{"pub":"#f4e1a1","hsi":"#52B2EE","not_msi":"#eee"}
+  "msi_detail":{"pub":"#f4e1a1","hsi":"#52B2EE","not_msi":"#eee"},
+  "race":{"pub":"#D9C49E","black":"#CF36EE","latinx":"#FFBB00","middle eastern":"#657419","south asian":"#E79146","south east asian":"#EC7A6D","east asian":"#E32525","white":"#B0C8F5","":"#cccccc"},
+  "discipline":{"pub":"#E3DECB","sociology":"#DC8A98","psychology":"#F53151","political science":"#F77F54","business":"#F8CD56","economics":"#ECB51E","engineering":"#C4D08A","medicine":"#A5B363","computer science":"#8FD2BD","biology":"#8FBCC7","mathematics":"#5BA9BD","physics":"#8EA6D1","":"#cccccc"}
 }
 var legendLabels = {
   "pub":"Publication",
@@ -48,7 +50,27 @@ var legendLabels = {
   "not_msi":"Not minority serving",
   "2000":"2000",
   "2011":"2011",
-  "2022":"2022"
+  "2022":"2022",
+  "sociology":"Sociology",
+  "psychology":"Psychology",
+  "political science":"Political Science",
+  "economics":"Economics",
+  "business":"Business",
+  "engineering":"Engineering",
+  "medicine":"Medicine",
+  "biology":"Biology",
+  "computer science":"Computer Science",
+  "mathematics":"Mathematics",
+  "physics":"Physics",
+  "":"Other / Unknown",
+  undefined:"Other",
+  "black":"Black",
+  "latinx":"Latinx",
+  "middle eastern":"Middle Eastern",
+  "south asian":"South Asian",
+  "south east asian":"South East Asian",
+  "east asian":"East Asian",
+  "white":"White"
 }
 var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation,chosenNodes = [];
 var dataFolder = "data/";
@@ -57,9 +79,9 @@ var showPubs = true, authRings = false, curYear = 2022, curColorScheme = "type",
 d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( function(edgeData) {
   d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v2.csv").then( function(edgeDataNoPubs) {
   d3.csv(dataFolder+"ADVANCE_Outcome_Publications.csv").then( function(pubData) {
-    d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_AuthorInfo_v4.csv").then( function(authorData) {
+    d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_AuthorInfo_v5.csv").then( function(authorData) {
       pubData.forEach(function(d){
-        d.datef = dateParse(d.Date);
+        d.datef = yearParse(d.Year);//dateParse(d.Date);
         d.cite = +d.CitationCount;
         d.type = "pub";
         d.id = +d.PublicationId;
@@ -79,6 +101,8 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( fun
         d.network = false;
         d.gender = d.AuthorGender;
         d.doctype = d.carnegie_doctoral_type;
+        d.discipline = d.PrimaryField;
+        d.race = d.AuthorRace;
         d.degree = 0;
 
         var expert = "other";
@@ -435,7 +459,7 @@ function reColor(colorBy){
           return colors[colorBy].author;
         }else if(colorBy == "date"){
           return colorScale(e.date);
-        }else if(colorBy == "expert" || colorBy == "gender" || colorBy == "msi" || colorBy == "msi_detail"){
+        }else if(colorBy == "expert" || colorBy =="race" || colorBy == "gender" || colorBy == "msi" || colorBy == "msi_detail" || colorBy == "discipline"){
           return colors[colorBy][c];
         }else{
           if(c<threshhold){
