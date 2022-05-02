@@ -373,6 +373,7 @@ function toggleTimeline(){
   }else{
     authRings = true;
     button.html("Hide timeline");
+    reColor("type");
   }
   simulation.alpha(1).restart();
 }
