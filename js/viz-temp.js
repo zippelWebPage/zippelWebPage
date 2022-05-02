@@ -20,16 +20,16 @@ var yearParse = d3.timeParse("%Y");
 var dateParse = d3.timeParse("%Y-%m-%d");
 var yearFormat = d3.timeFormat("%Y");
 var colors = {
-  "race_ethnicity":{"pub":"#f4e1a1","authorHigh":"#52B2EE","authorLow":"#ccc"},
-  "gender_only":{"pub":"#f4e1a1","authorHigh":"#A170E5","authorLow":"#ccc"},
-  "intersectional":{"pub":"#f4e1a1","authorHigh":"#FF595E","authorLow":"#ccc"},
+  "race_ethnicity":{"pub":"#E3DECB","authorHigh":"#52B2EE","authorLow":"#ccc"},
+  "gender_only":{"pub":"#E3DECB","authorHigh":"#A170E5","authorLow":"#ccc"},
+  "intersectional":{"pub":"#E3DECB","authorHigh":"#FF595E","authorLow":"#ccc"},
   "type":{"pub":"#eaa15d","author":"#5dd0ea"},
-  "expert":{"pub":"#f4e1a1","race_ethnicity":"#52B2EE","gender_only":"#A170E5","intersectional":"#FF595E","other":"#ccc"},
-  "date":{"pub":"#f4e1a1","2000":"#A5FFD6","2011":"#BAD7F7","2022":"#EE5353"},
-  "gender":{"pub":"#f4e1a1","woman":"#fc8f95","man":"#8fa1fc","unknown":"#ccc"},
-  "msi":{"pub":"#f4e1a1","msi":"#52B2EE","not_msi":"#eee"},
-  "msi_detail":{"pub":"#f4e1a1","hsi":"#52B2EE","not_msi":"#eee"},
-  "race":{"pub":"#D9C49E","black":"#CF36EE","latinx":"#FFBB00","middle eastern":"#657419","south asian":"#E79146","south east asian":"#EC7A6D","east asian":"#E32525","white":"#B0C8F5","":"#cccccc"},
+  "expert":{"pub":"#E3DECB","race_ethnicity":"#52B2EE","gender_only":"#A170E5","intersectional":"#FF595E","other":"#ccc"},
+  "date":{"pub":"#E3DECB","2000":"#A5FFD6","2011":"#BAD7F7","2022":"#EE5353"},
+  "gender":{"pub":"#E3DECB","woman":"#fc8f95","man":"#8fa1fc","unknown":"#ccc"},
+  "msi":{"pub":"#E3DECB","msi":"#52B2EE","not_msi":"#eee"},
+  "msi_detail":{"pub":"#E3DECB","hsi":"#52B2EE","not_msi":"#eee"},
+  "race":{"pub":"#E3DECB","black":"#CF36EE","latinx":"#FFBB00","middle eastern":"#657419","south asian":"#E79146","south east asian":"#EC7A6D","east asian":"#E32525","white":"#B0C8F5","":"#cccccc"},
   "discipline":{"pub":"#E3DECB","sociology":"#DC8A98","psychology":"#F53151","political science":"#F77F54","business":"#F8CD56","economics":"#ECB51E","engineering":"#C4D08A","medicine":"#A5B363","computer science":"#8FD2BD","biology":"#8FBCC7","mathematics":"#5BA9BD","physics":"#8EA6D1","":"#cccccc"}
 }
 var legendLabels = {
@@ -168,8 +168,8 @@ function createGraph(){
     .data(links)
     .enter()
     .append("line")
-    .attr("stroke", "#f4e1a1")
-    .attr("opacity",0.6)
+    .attr("stroke", "#a0a0a0")
+    .attr("opacity",1)
     .attr("class",function(d){return "link-"+d.source+" link-"+d.target})
 
   // Initialize the nodes
@@ -412,7 +412,7 @@ function updateSim(){
   link = lGroup.selectAll("line").data(links,d=>d.id);//.join();
   link.exit().remove();
   link.enter().append("line")
-    .attr("stroke", "#f4e1a1")
+    .attr("stroke", "#a0a0a0")
     .attr("opacity",0.6)
     .attr("class",function(d){return "link-"+d.source+" link-"+d.target});
   link = lGroup.selectAll("line").data(links,d=>d.id);
