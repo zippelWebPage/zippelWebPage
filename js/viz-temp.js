@@ -369,6 +369,7 @@ function toggleTimeline(){
   if(authRings){
     authRings = false;
     button.html("Show timeline");
+    reColor("type");
   }else{
     authRings = true;
     button.html("Hide timeline");
