@@ -1,6 +1,4 @@
 NetworkId,AuthorId,FullName,TotalPublications,TotalCitations,FirstYear,gender_only,intersectional,race_ethnicity,AuthorGender,AffiliationId,AffiliationName,org_id,carnegie_id,carnegie_doctoral_type,carnegie_msi,carnegie_hsi,carnegie_hbcu,PrimaryField,AuthorRace
-604,2502484866,debra meyerson,1,211,2000,13,0,1,woman,179245896.0,Simmons College,1122135662.0,167783.0,R3,False,False,False,sociology,
-434,2169841102,deborah m kolb,1,211,2000,12,0,0,woman,179245896.0,Simmons College,1122135662.0,167783.0,R3,False,False,False,sociology,
 424,2167097393,jennifer sheridan,13,385,2003,10,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False,psychology,white
 176,2036914667,ramona gunter,2,66,2003,1,0,0,woman,14403649.0,University of Wisconsin–River Falls,2638073820.0,240471.0,carnegie,False,False,False,psychology,
 290,2119748376,lori l bakken,2,71,2003,2,0,4,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False,engineering,
