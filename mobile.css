@@ -1,5 +1,6 @@
 body{
   min-width:850px;
+  font-weight: 400;
 }
 #container{
   width: 850px;
@@ -39,7 +40,7 @@ body{
 #legend{
   display: flex;
   justify-content: center;
-  column-gap: 35px;
+  column-gap: 5%;
   flex-wrap:wrap;
 }
 #legend li p{
@@ -48,8 +49,9 @@ body{
 .bullet{
   margin:auto;
   position: relative;
-  top: 22px;
+  top: 40%;
   left: -15px;
+  font-size: 200%;
 }
 button{
   min-height: 40px;
