@@ -44,6 +44,9 @@ h1,h2,h3{
   background-color: #bddbd0;
   padding-top: 15px;
 }
+#navbar h3{
+  margin: 0;
+}
 #main{
   margin: 0 auto;
   position: relative;

@@ -1,18 +1,36 @@
+body{
+  min-width:850px;
+}
+#container{
+  width: 850px;
+  height: 850px;
+  overflow: visible;
+  position: relative;
+}
 #navbar{
   height: 60px;
+}
+#navbar h3{
+  width: 100vw;
+  margin: 0 auto !important;
 }
 #main{
   width:auto;
   /* padding: 5px; */
 }
-#sidebar, #searchPanel{
-  width: 100%;
-  text-align: center;
+#container, #sidebar, #searchPanel {
+  float: none;
 }
-#searchPanel input, #colorDropdown{
-  width: 80%;
+#sidebar, #searchPanel{
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+#searchPanel input, #colorDropdown, #yearSlider{
+  width: 80vw;
   height: 40px;
   border-radius: 40px;
+  margin:0 auto;
 }
 #legend{
   display: flex;
