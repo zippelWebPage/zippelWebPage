@@ -4,11 +4,18 @@
   <meta name="keywords" content="HTML,CSS,JavaScript,THREE.js">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css?v=5">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <title>The Advance Community</title>
 </head>
 <body>
-    <button id="generate" style="position:absolute;">Save as SVG</button>
-  <div id="sidebar">
+    <div id="navbar">
+      <h3 style="margin:0">ADVANCE Co-Authorship Network: Interactive Visualization</h3>
+    </div>
+    <div id="main">
+    <button id="generate" style="position:absolute; display:none;">Save as SVG</button>
+    <div id="sidebar">
     <h3>Visualization Controls</h3>
     <!-- button to toggle layout -->
     <button onclick="toggleTimeline()" id="toggleTimelineButton">Show timeline</button>
@@ -32,9 +39,10 @@
       <option value="race">Author Race</option>
       <option value="discipline">Discipline</option>
       <option value="race_ethnicity">Race & Ethnicity</option>
-      <option value="gender_only">Gender Only</option>
+      <option value="gender_only">Gender Studies</option>
       <option value="intersectional">Intersectional</option>
       <option value="expert">DEI Expertise</option>
+      <option value="doctype">University Doctoral Type</option>
       <option value="msi">Minority Serving Institutions</option>
       <option value="msi_detail">Hispanic Serving Institutions</option>
       <option value="date">Year</option>
@@ -50,6 +58,10 @@
     <h3>Author Search</h3>
     <input onchange="searchFor(this.value)"></input>
     <ul id="searchResults"></ul>
+
+    <hr/>
+    <p id="nsf-msg">This material is based upon work supported by the National Science Foundation under Grants No. 1836671 and 2000713. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation</p>
+  </div>
   </div>
 
 

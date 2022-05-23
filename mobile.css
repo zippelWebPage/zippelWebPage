@@ -1,0 +1,35 @@
+#navbar{
+  height: 60px;
+}
+#main{
+  width:auto;
+  /* padding: 5px; */
+}
+#sidebar, #searchPanel{
+  width: 100%;
+  text-align: center;
+}
+#searchPanel input, #colorDropdown{
+  width: 80%;
+  height: 40px;
+  border-radius: 40px;
+}
+#legend{
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+  flex-wrap:wrap;
+}
+#legend li p{
+  /* margin: 0 auto; */
+}
+.bullet{
+  margin:auto;
+  position: relative;
+  top: 22px;
+  left: -15px;
+}
+button{
+  height: 40px;
+  border-radius: 40px;
+}
