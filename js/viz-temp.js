@@ -7,8 +7,11 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 var wid = 850,hei = 850;
 if(isMobile){
-  wid = screen.width;
-  hei = screen.width;
+  // wid = screen.width;
+  // hei = screen.width;
+  if(screen.width < 850){
+    window.scrollTo(425,0);
+  }
   var link = document.createElement("link");
  link.type = "text/css";
  link.rel = "stylesheet";
