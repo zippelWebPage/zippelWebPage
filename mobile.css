@@ -33,6 +33,9 @@ body{
   border-radius: 40px;
   margin:0 auto;
 }
+#searchResults{
+  min-height: none;
+}
 #legend{
   display: flex;
   justify-content: center;
@@ -49,6 +52,7 @@ body{
   left: -15px;
 }
 button{
-  height: 40px;
+  min-height: 40px;
   border-radius: 40px;
+  font-size: 120%;
 }

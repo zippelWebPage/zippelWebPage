@@ -24,6 +24,9 @@ hr{
 h1,h2,h3{
   font-family: 'Montserrat', sans-serif;
 }
+a{
+  color: #3062a2;
+}
 
 
 /* ================== svg and UI containers ================*/
@@ -36,6 +39,7 @@ h1,h2,h3{
 #searchResults{
   max-height: 80vh;
   overflow-y: scroll;
+  min-height: 250px;
 }
 #navbar{
   width: 100%;
