@@ -6,6 +6,7 @@ body{
   height: 850px;
   overflow: visible;
   position: relative;
+  margin: 0 auto;
 }
 #navbar{
   height: 60px;
