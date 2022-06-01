@@ -66,6 +66,7 @@ a{
   margin: 10vh 25vw;
   border: 1px solid;
   opacity: 0;
+  display: none;
 }
 #lightBox{
   padding: 20px;
