@@ -21,6 +21,9 @@ body{
   width:auto;
   /* padding: 5px; */
 }
+#directions{
+  width:100vw;
+}
 #container, #sidebar, #searchPanel {
   float: none;
 }
