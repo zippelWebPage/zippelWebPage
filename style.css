@@ -21,7 +21,7 @@ hr{
   border: 0.5px solid #ccc;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
   font-family: 'Montserrat', sans-serif;
 }
 a{
@@ -56,6 +56,34 @@ a{
   position: relative;
   width: 1250px;
 }
+#lightBoxParent{
+  position: fixed;
+  width: 50vw;
+  height: 70vh;
+  z-index: 2;
+  background-color: rgba(238, 237, 220, 0.9);
+  overflow-y: scroll;
+  margin: 10vh 25vw;
+  border: 1px solid;
+  opacity: 0;
+}
+#lightBox{
+  padding: 20px;
+}
+#lightBoxClose{
+  position: relative;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  color: #7d7f56;
+  float: right;
+  font-size: 40px;
+}
+
+.lightboxContent{
+  display:none;
+}
+
 
 /* ===================  UI elements =======================*/
 select, button, input{

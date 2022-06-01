@@ -3,72 +3,117 @@
   <meta charset="utf-8">
   <meta name="keywords" content="HTML,CSS,JavaScript,THREE.js">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <title>The Advance Community</title>
 </head>
 <body>
-    <div id="navbar">
-      <h3>ADVANCE Co-Authorship Network: Interactive Visualization</h3>
-    </div>
-    <div id="main">
+  <div id="navbar">
+    <h3>ADVANCE Co-Authorship Network: Interactive Visualization</h3>
+  </div>
+  <div id="main">
     <button id="generate" style="position:absolute; display:none;">Save as SVG</button>
     <div id="sidebar">
-    <h3>Visualization Controls</h3>
-    <!-- button to toggle layout -->
-    <button onclick="toggleTimeline()" id="toggleTimelineButton">Show timeline</button>
-    <button onclick="togglePubs()" id="togglePubsButton">Hide publications</button>
-    <button onclick="playPause()" id="playPauseButton">Play animation</button>
-    <button onclick="playPauseIdle()" id="idleButton">Highlight Modules</button>
-    <button onclick="reScale()" id="reScaleButton">Scale By degree</button>
-    <hr/>
+      <h3>Visualization Controls</h3>
+      <!-- button to toggle layout -->
+      <button onclick="toggleTimeline()" id="toggleTimelineButton">Show timeline</button>
+      <button onclick="togglePubs()" id="togglePubsButton">Hide publications</button>
+      <button onclick="playPause()" id="playPauseButton">Play animation</button>
+      <button onclick="playPauseIdle()" id="idleButton">Highlight Modules</button>
+      <button onclick="reScale()" id="reScaleButton">Scale By degree</button>
+      <hr/>
 
-    <!-- slider for years -->
-    <h3>Selected Year</h3>
-    <p id="yearLabel">2008</p>
-    <input type="range" min="2000" max="2022" value="2022" step="1" class="slider" id="yearSlider" onchange="yearSlider(this.value)" onenter="yearSlider(this.value)">
-    <hr/>
+      <!-- slider for years -->
+      <h3>Selected Year</h3>
+      <p id="yearLabel">2008</p>
+      <input type="range" min="2000" max="2022" value="2022" step="1" class="slider" id="yearSlider" onchange="yearSlider(this.value)" onenter="yearSlider(this.value)">
+      <hr/>
 
-    <h3>Color Scheme</h3>
-    <!-- recolor dropdown -->
-    <select id="colorDropdown" class="dropdown" onchange="reColor(this.value)">
-      <option value="type">Node Type</option>
-      <option value="gender">Author Gender</option>
-      <option value="race">Author Race</option>
-      <option value="discipline">Discipline</option>
-      <option value="race_ethnicity">Race & Ethnicity</option>
-      <option value="gender_only">Gender Studies</option>
-      <option value="intersectional">Intersectional</option>
-      <option value="expert">DEI Expertise</option>
-      <option value="doctype">University Doctoral Type</option>
-      <option value="msi">Minority Serving Institutions</option>
-      <option value="msi_detail">Hispanic Serving Institutions</option>
-      <option value="date">Year</option>
-    </select>
-    <ul id="legend"></ul>
+      <h3>Color Scheme</h3>
+      <!-- recolor dropdown -->
+      <select id="colorDropdown" class="dropdown" onchange="reColor(this.value)">
+        <option value="type">Node Type</option>
+        <option value="gender">Author Gender</option>
+        <option value="race">Author Race</option>
+        <option value="discipline">Discipline</option>
+        <option value="race_ethnicity">Race & Ethnicity</option>
+        <option value="gender_only">Gender Studies</option>
+        <option value="intersectional">Intersectional</option>
+        <option value="expert">DEI Expertise</option>
+        <option value="doctype">University Doctoral Type</option>
+        <option value="msi">Minority Serving Institutions</option>
+        <option value="msi_detail">Hispanic Serving Institutions</option>
+        <option value="date">Year</option>
+      </select>
+      <ul id="legend"></ul>
+    </div>
+    <div id="container"></div>
+    <div id="searchPanel">
+      <h3>Selected Node</h3>
+      <div id="infoText"></div>
+      <hr>
+      <!-- Search Bar and result list -->
+      <h3>Author Search</h3>
+      <input onchange="searchFor(this.value)"></input>
+      <ul id="searchResults"></ul>
+
+      <hr>
+      <h3>More Info</h3>
+      <button class="moreinfo" id="howto" onclick="showLightBox(this)">About the Visualization
+        <div class="lightboxContent">
+          <h3>About the Visualization</h3>
+          In the center of the screen you see this network with two types of nodes: Publications (orange) and Authors (blue). An author is connected to a publication by a network edge if the author wrote the publication. For publication nodes, the size reflects the number of authors on the publication. For author nodes, the size reflects the number of publications the author wrote, or the number of collaborators (when the publications are hidden).
+
+          <h4>Explore</h4>
+          Click on a node to learn more about it. The name
+          or title will appear on the right of the screen under Selected Node and the node’s connections will be highlighted. Click anywhere to deselect. Search for a specific Author in the network using the Author Search on the right.
+          <h4>Time</h4>
+          Using the Selected Year slider you can see all publications and authors from 2001 until the selected year. Select Show Timeline to see the nodes re- arranged so the radial distance from the center of the image starting in 2001. Year 2001 is in the center, year 2021 is on the largest circle.
+          <h4>Animation</h4>
+          Click Play animation to progress through all years from 2001 until 2021. Your pre-existing settings (color and layout) will be maintained throughout the animation. Click the button again to Pause animation.
+          <h4>Social Connections</h4>
+          To focus on social connections, select Hide Publications so all visible nodes are Authors. Here, two authors are connected if they wrote a publication together.
+          <h4>Color Schemes</h4>
+          We can also learn more by recoloring the nodes and observing which colors tend to be connected in the network. Change colors by using the drop-down box in Color Scheme. A legend appears below the selected scheme. Options include:
+          <ol>
+            <li>Author Gender</li>
+            <li>Author Race</li>
+            <li>Author Discipline</li>
+            <li>Expertise in Race & Ethnicity Studies 5. Expertise in Gender Studies</li>
+            <li>Expertise in Intersectional Studies</li>
+            <li>An Affiliation at a Minority Serving Institution (MSI) 8. An Affiliation at a Hispanic Serving Institution (HSI)</li>
+            <li>First Year of publication</li>
+          </ol>
+          <h4>Other functions</h4>
+          Change the node size by pressing Scale by Citations to show the most highly cited publications and authors in the network. Press Scale by Degree to return to the original view. To explicitly explore the disconnected modules in the network, press Highlight Modules. Press Pause Modules to return to the original view.
+        </div>
+      </button>
+      <button class="moreinfo" id="credits" onclick="showLightBox(this)">Credits
+        <div class="lightboxContent">
+          <h4>Project Team</h4>
+          <ul> 
+            <li><b>Kathrin Zippel</b> | <i>Professor of Sociology, Northeastern University</i></li>
+            <li><b>Laura K. Nelson</b> | <i>Assistant Professor of Sociology, University of British Columbia</i></li>
+            <li><b>Alexander Gates</b> | <i>Associate Research Scientist, Dept. of Sociology, Northeastern University</i></li>
+            <li><b>Jessica Gold</b> | <i>Postdoctoral Research Associate, Dept. of Sociology, Northeastern University</i></li>
+            <li><b> Alice Grishchenko</b> | Visualization</li>
+          </ul>
+
+          <p id="nsf-msg">This material is based upon work supported by the National Science Foundation under Grants No. 1836671 and 2000713. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation</p>
+        </div>
+      </button>
+      <hr/>
+      <p>For corrections and other feedback, please contact <a href="mailto:advoutcomeviz@gmail.com">advoutcomeviz@gmail.com</a></p>
+    </div>
   </div>
-  <div id="container"></div>
-  <div id="searchPanel">
-    <h3>Selected Node</h3>
-    <div id="infoText"></div>
-    <hr>
-    <!-- Search Bar and result list -->
-    <h3>Author Search</h3>
-    <input onchange="searchFor(this.value)"></input>
-    <ul id="searchResults"></ul>
-
-    <hr/>
-    <p id="nsf-msg">This material is based upon work supported by the National Science Foundation under Grants No. 1836671 and 2000713. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation</p>
-    <hr/>
-    <p>For corrections and other feedback, please contact <a href="mailto:advoutcomeviz@gmail.com">advoutcomeviz@gmail.com</a></p>
+  <div id="lightBoxParent"><div id="lightBoxClose" onclick="closeLightBox()">&#215;</div>
+    <div id="lightBox"></div>
   </div>
-  </div>
-
 
   <script type="text/javascript"  src="js/d3.min.js"></script>
-  <script type="text/javascript"  src="js/viz-temp.js?v=7"></script>
+  <script type="text/javascript"  src="js/viz-temp.js?v=8"></script>
   <script type="text/javascript"  src="js/blob.js"></script>
   <script type="text/javascript"  src="js/fileSaver.js"></script>
   <script>
