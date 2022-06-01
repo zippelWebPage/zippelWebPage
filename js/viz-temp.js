@@ -678,11 +678,13 @@ function getNewChosenNode(){
 function showLightBox(passed){
   var content = passed.children[0].innerHTML;
   d3.select("#lightBoxParent").style("opacity",1);
+  d3.select("#lightBoxParent").style("display","block");
   d3.select("#lightBox").html(content);
 }
 
 function closeLightBox(){
   d3.select("#lightBoxParent").style("opacity",0);
+  d3.select("#lightBoxParent").style("display","none");
 }
 
 
