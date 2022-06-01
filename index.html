@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="keywords" content="HTML,CSS,JavaScript,THREE.js">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -13,6 +13,19 @@
   <div id="navbar">
     <h3>ADVANCE Co-Authorship Network: Interactive Visualization</h3>
   </div>
+  <div id="directions">
+  <p>Welcome to the interactive NSF ADVANCE co-authorship network capturing the ever-growing web of collaboration and discovery empowering knowledge production for gender equity.
+  Here, the dots are network nodes representing either authors  or publications, and an author is connected to the publications they write.
+
+  Explore the network by:
+  <ol>
+    <li>Selecting individual nodes (authors (blue)/ publications (orange) to see details on the upper right hand side and for the authors all of their connections and for the publications all of the authors;</li>
+  <li>Change the Color Scheme to recolor the nodes based on the author’s DEI expertise this includes Race & Ethnicity, Gender Studies, and Intersectionality, their Discipline, or Institutional Affiliation; </li>
+  <li>or Rearrange the network nodes in a Timeline configuration by year.</li>
+</ol>
+
+  You can also learn more by <a href="https://www.youtube.com/watch?v=FfG1PArP5WY" target="_blank">watching the video HERE.</a></p>
+</div>
   <div id="main">
     <button id="generate" style="position:absolute; display:none;">Save as SVG</button>
     <div id="sidebar">
@@ -61,7 +74,7 @@
 
       <hr>
       <h3>More Info</h3>
-      <button class="moreinfo" id="howto" onclick="showLightBox(this)">About the Visualization
+      <button class="moreinfo" id="howto" onclick="showLightBox(this)">Full How-to
         <div class="lightboxContent">
           <h3>About the Visualization</h3>
           In the center of the screen you see this network with two types of nodes: Publications (orange) and Authors (blue). An author is connected to a publication by a network edge if the author wrote the publication. For publication nodes, the size reflects the number of authors on the publication. For author nodes, the size reflects the number of publications the author wrote, or the number of collaborators (when the publications are hidden).

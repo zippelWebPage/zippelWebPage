@@ -51,10 +51,14 @@ a{
 #navbar h3{
   margin: 0;
 }
-#main{
+#main, #directions{
   margin: 0 auto;
   position: relative;
   width: 1250px;
+}
+#directions{
+  font-size: 14px;
+  width: 800px;
 }
 #lightBoxParent{
   position: fixed;
