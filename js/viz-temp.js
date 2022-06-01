@@ -9,7 +9,8 @@ var wid = 850,hei = 850;
 if(isMobile){
   // wid = screen.width;
   // hei = screen.width;
-  if(screen.width < 850){
+  if(screen.width < screen.height){
+    console.log("portrait");
     window.scrollTo(425,0);
   }
   var link = document.createElement("link");
@@ -672,6 +673,16 @@ function getNewChosenNode(){
   }else{
     return nodeID;
   }
+}
+
+function showLightBox(passed){
+  var content = passed.children[0].innerHTML;
+  d3.select("#lightBoxParent").style("opacity",1);
+  d3.select("#lightBox").html(content);
+}
+
+function closeLightBox(){
+  d3.select("#lightBoxParent").style("opacity",0);
 }
 
 
