@@ -1,0 +1,992 @@
+NetworkId,FullName,TotalPublications,TotalCitations,FirstYear,AuthorTopField,AuthorFieldDiversity,gender_only,intersectional,race_ethnicity,AuthorGender,AffiliationId,AffiliationName,org_id,carnegie_id,carnegie_doctoral_type,carnegie_msi,carnegie_hsi,carnegie_hbcu
+22,aimee lapointe terosky,4,226.0,2008,sociology,0.4676923076923077,4,0,1,woman,51077184.0,Saint Joseph's University,3767789329.0,215770.0,carnegie,False,False,False
+484,kerryann omeara,26,769.0,2008,sociology,0.3255043661547727,3,0,3,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+624,anna neumann,1,144.0,2008,sociology,0.2645502645502645,2,0,0,woman,,,,,,,,
+258,elisabeth sheff,1,0.0,2010,sociology,0.3333333333333333,7,0,0,woman,,,,,,,,
+375,joyce mccarl nielson,1,0.0,2010,political science,0.0,1,0,0,woman,188538660.0,University of Colorado Boulder,3311607547.0,126614.0,R1,False,False,False
+453,robyn marschke,2,128.0,2007,political science,0.3333333333333333,2,0,0,woman,114526571.0,Concordia College,2009072930.0,173300.0,carnegie,False,False,False
+521,p rankin,3,128.0,2004,physics,0.916194727298089,2,0,0,woman,188538660.0,University of Colorado Boulder,3311607547.0,126614.0,R1,False,False,False
+598,rachel w kallen,3,3.0,2014,psychology,0.4238310708898944,2,1,1,woman,63135867.0,University of Cincinnati,3740284992.0,201885.0,R1,False,False,False
+83,stacie f holloway,4,5.0,2014,psychology,0.4857142857142857,2,1,1,woman,63135867.0,University of Cincinnati,3740284992.0,201885.0,R1,False,False,False
+322,steve howe,2,0.0,2014,psychology,0.5422832980972516,2,0,0,man,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+57,katherine j kuchenbecker,1,0.0,2007,computer science,0.3602978941961993,0,0,0,woman,79576946.0,University of Pennsylvania,2811053647.0,215062.0,R1,False,False,False
+91,jennifer chougreen,2,1.0,2005,unknown,0.0,0,0,0,woman,,,,,,,,
+275,elisa h barney smith,1,0.0,2007,computer science,0.3870162297128589,0,0,0,man,120156002.0,Boise State University,1158879242.0,142115.0,R2,False,False,False
+390,arielle drummond,1,0.0,2007,engineering,0.1666666666666666,0,0,0,woman,74973139.0,Carnegie Mellon University,15048887.0,211440.0,R1,False,False,False
+866,carol b muller,3,1.0,2005,engineering,0.1786786786786786,8,2,1,woman,,,,,,,,
+524,theda danielsrace,1,0.0,2007,unknown,0.7335381913959613,0,0,0,woman,121820613.0,Louisiana State University,373313306.0,159391.0,R1,False,False,False
+736,carla fehr,4,35.0,2008,sociology,0.4065934065934066,6,0,0,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+265,mary anne holmes,9,126.0,2003,geology,0.1446540880503144,7,0,0,woman,114395901.0,University of Nebraska–Lincoln,3390882279.0,181464.0,R1,False,False,False
+219,kristen p constant,3,2.0,2010,unknown,0.4281567489114659,1,1,2,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+423,patricia wonch hill,1,7.0,2014,psychology,0.1648351648351648,1,0,1,woman,,,,,,,,
+450,julia mcquillan,1,7.0,2014,psychology,0.3244958924570575,16,3,9,woman,,,,,,,,
+405,ashley grantham,1,33.0,2014,sociology,0.4,0,0,0,woman,,,,,,,,
+520,audrey j jaeger,5,56.0,2014,psychology,0.2799171842650103,3,0,3,woman,137902535.0,North Carolina State University,2263107286.0,199193.0,R1,False,False,False
+582,allison mitchall,1,33.0,2014,psychology,0.4,0,0,0,woman,,,,,,,,
+583,kelly cowdery,1,33.0,2014,sociology,1.0,0,0,0,woman,,,,,,,,
+595,jennifer eliason,1,33.0,2014,sociology,1.0,0,0,1,woman,,,,,,,,
+776,kate jingjing zhang,1,33.0,2014,sociology,0.0,0,0,0,woman,,,,,,,,
+260,jessi l smith,11,197.0,2004,psychology,0.3261562998405103,15,0,3,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+646,sara rushing,4,52.0,2013,sociology,0.1473684210526315,5,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+648,lucy e bailey,1,5.0,2009,sociology,0.2553846153846154,11,1,1,woman,,,,,,,,
+153,melanie c page,1,5.0,2009,psychology,0.3405928614640048,2,0,0,woman,,,,,,,,
+33,jean van delinder,1,5.0,2009,sociology,0.1985294117647058,5,2,2,man,,,,,,,,
+316,mary frank fox,8,710.0,2003,sociology,0.2224507787246547,21,0,0,woman,130701444.0,Georgia Institute of Technology,3565156514.0,139755.0,R1,False,False,False
+179,brian a eiler,1,0.0,2014,psychology,0.5238095238095238,0,0,0,man,63135867.0,University of Cincinnati,3740284992.0,201885.0,R1,False,False,False
+784,manuela romero,1,0.0,2005,psychology,0.1904761904761904,0,0,0,woman,,,,,,,,
+438,ann q gates,1,0.0,2005,computer science,0.5293777469349988,3,0,0,woman,,,,,,,,
+519,megumi watanabe,5,47.0,2010,psychology,0.2222222222222222,1,0,3,woman,113306721.0,Hiroshima University,4164632330.0,,other,False,False,False
+5,kerry k karukstis,5,24.0,2009,unknown,0.3085614950021729,3,0,0,woman,133543626.0,Harvey Mudd College,3575800017.0,115409.0,carnegie,False,False,False
+237,clair brown,1,0.0,2013,business,0.1793444650587507,2,0,0,man,,,,,,,,
+292,eric freeman,1,0.0,2013,economics,0.1904761904761904,0,0,0,man,,,,,,,,
+233,laura a hartin,1,0.0,2009,engineering,0.0,0,0,0,woman,,,,,,,,
+84,diana bilimoria,8,507.0,2006,sociology,0.2355119825708061,33,0,8,woman,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+299,linley lord,1,2.0,2014,sociology,0.1555555555555555,3,0,0,woman,,,,,,,,
+235,annabelle foos,1,2.0,2004,geology,0.1714285714285714,0,0,0,woman,,,,,,,,
+761,suzanne oconnell,7,109.0,2003,geology,0.3923673225998807,4,0,1,woman,100538780.0,Wesleyan University,1893812148.0,130697.0,carnegie,False,False,False
+600,sue v rosser,14,550.0,2004,sociology,0.1638837353123067,42,5,3,woman,130701444.0,Georgia Institute of Technology,3565156514.0,139755.0,R1,False,False,False
+504,sylvia thomas,1,1.0,2014,unknown,0.4060419866871479,1,0,0,woman,2613432.0,unknown,,,,,,
+13,canan bilengreen,15,28.0,2010,political science,0.2494623655913978,6,1,1,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+172,adrienne r minerick,1,0.0,2014,unknown,0.1107070707070707,3,0,1,woman,,,,,,,,
+189,sandra d eksioglu,1,0.0,2014,engineering,0.2457225314368171,0,0,1,woman,,,,,,,,
+257,beth m holloway,1,0.0,2014,engineering,0.2026143790849673,3,0,2,woman,,,,,,,,
+455,roger a green,7,6.0,2010,mathematics,0.1763440860215053,4,0,1,man,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+801,debra m gilbuena,1,0.0,2014,political science,0.0,0,0,1,woman,,,,,,,,
+693,deborah g johnson,1,47.0,2006,sociology,0.1622971285892634,1,0,1,woman,,,,,,,,
+102,catherine white berheide,6,16.0,2010,sociology,0.2210144927536232,8,0,1,woman,21104390.0,Skidmore College,1515029504.0,195526.0,carnegie,False,False,False
+284,marcia texler segal,1,5.0,2014,sociology,0.3774680603948896,31,5,2,woman,,,,,,,,
+432,vasilikie demos,1,5.0,2014,sociology,0.3618538324420677,27,2,3,unknown,,,,,,,,
+111,danielle lavaquemanty,2,60.0,2007,political science,0.2,1,0,1,woman,,,,,,,,
+321,abigail j stewart,4,181.0,2007,psychology,0.3783312577833125,77,11,14,woman,,,,,,,,
+435,janet e malley,1,54.0,2007,psychology,0.419047619047619,7,0,1,woman,,,,,,,,
+378,xiangfen liang,3,316.0,2006,political science,0.2285714285714285,4,0,0,unknown,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+335,cecilia e ford,1,35.0,2008,psychology,0.3891402714932127,2,0,0,woman,,,,,,,,
+380,wendy m williams,1,226.0,2007,psychology,0.3401122019635343,19,0,2,woman,,,,,,,,
+488,stephen j ceci,1,226.0,2007,psychology,0.5317980179329873,52,0,3,man,,,,,,,,
+816,nancy cantor,2,195.0,2005,sociology,0.2907268170426065,6,0,1,woman,,,,,,,,
+482,diane m debinski,2,1.0,2008,biology,0.3121244952230868,0,2,0,woman,,,,,,,,
+796,sharon r bird,7,175.0,2008,sociology,0.1719576719576719,9,2,2,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+46,dawn bratschprince,1,0.0,2012,art,0.1272727272727272,1,1,0,woman,,,,,,,,
+203,sandra w gahn,2,1.0,2012,psychology,1.0,1,1,0,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+326,bonnie s bowen,2,1.0,2012,biology,0.4175824175824176,1,1,0,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+505,lisa m larson,3,6.0,2010,psychology,0.800045756119881,3,1,0,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+745,elizabeth hoffman,1,0.0,2012,economics,0.3531135531135531,0,1,0,woman,,,,,,,,
+773,katherine richardson bruna,1,0.0,2012,psychology,0.0,0,1,0,woman,,,,,,,,
+810,elisabeth j hufflonergan,1,0.0,2012,psychology,0.0,0,1,0,woman,,,,,,,,
+832,susan j lamont,1,0.0,2012,psychology,0.0,0,1,0,woman,,,,,,,,
+818,alice b popejoy,2,7.0,2012,biology,0.1631578947368421,3,0,3,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+205,phoebe s leboy,3,147.0,2011,biology,0.3858647936786655,2,0,1,woman,79576946.0,University of Pennsylvania,2811053647.0,215062.0,R1,False,False,False
+244,barbara l whitten,1,0.0,2010,unknown,0.1333333333333333,3,0,0,woman,,,,,,,,
+267,anne cox,2,0.0,2010,unknown,0.1736842105263158,0,0,0,woman,,,,,,,,
+401,cynthia blaha,1,0.0,2010,physics,0.4166666666666667,0,0,0,woman,,,,,,,,
+515,amy lisa graves,1,0.0,2010,physics,0.1520467836257309,3,0,0,woman,,,,,,,,
+972,linda fritz,1,0.0,2010,psychology,0.0,0,0,0,woman,,,,,,,,
+98,julie a kmec,4,8.0,2013,psychology,0.2288557213930348,14,2,8,woman,72951846.0,Washington State University,1133568255.0,236939.0,R1,False,False,False
+144,alice l pawley,11,94.0,2010,sociology,0.2600961538461538,12,3,9,woman,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+170,jordana hoegh,3,13.0,2010,sociology,0.2666666666666666,0,0,0,woman,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+477,corey schimpf,4,10.0,2013,computer science,0.2955665024630542,4,0,1,man,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+666,marisol mercado santiago,1,2.0,2013,political science,0.3,0,0,1,man,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+758,dina banerjee,6,26.0,2010,sociology,0.2666666666666666,2,0,5,woman,139418187.0,Shippensburg University of Pennsylvania,3590127483.0,216010.0,carnegie,False,False,False
+155,matthew j zawadzki,5,216.0,2011,psychology,0.6435064935064935,7,1,2,man,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+157,cinnamon l danube,3,161.0,2012,psychology,0.8947368421052632,11,0,0,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+271,jessica l cundiff,1,62.0,2014,psychology,0.6928104575163399,7,0,0,woman,39660569.0,Colgate University,3800079431.0,190099.0,carnegie,False,False,False
+317,stephanie a shields,5,216.0,2011,psychology,0.6168735535451294,40,13,1,woman,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+79,amanda v bakian,1,7.0,2010,medicine,0.4180790960451977,2,0,3,woman,121980950.0,Utah State University,961439496.0,230728.0,R2,False,False,False
+774,kimberly a sullivan,3,79.0,2005,biology,0.238095238095238,1,0,0,woman,121980950.0,Utah State University,961439496.0,230728.0,R2,False,False,False
+264,annette m oconnor,1,1.0,2012,medicine,0.5356181404017395,4,0,0,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+675,katharine ridgway obrien bachman,1,2.0,2011,psychology,0.0,0,0,0,woman,,,,,,,,
+36,andrew lounder,3,53.0,2011,sociology,0.6,0,0,0,man,,,,,,,,
+944,aleece hodges,1,13.0,2013,sociology,0.0,0,0,0,woman,,,,,,,,
+319,joan c williams,3,72.0,2014,sociology,0.1603504094458198,50,4,6,woman,2803209242.0,University of California,1259477389.0,110398.0,carnegie,False,False,False
+429,rachel dempsey,1,36.0,2014,engineering,0.0,1,0,0,woman,,,,,,,,
+798,annemarie slaughter,1,36.0,2014,political science,0.4352941176470588,2,0,0,woman,,,,,,,,
+195,emma jeanes,1,35.0,2011,sociology,0.2412698412698412,10,0,0,woman,,,,,,,,
+413,patricia yancey martin,1,35.0,2011,unknown,0.0,1,0,0,man,,,,,,,,
+837,david knights,1,35.0,2011,sociology,0.3127266387726639,40,1,3,man,,,,,,,,
+193,christine wiedinmyer,4,9.0,2010,unknown,0.4311340148123116,1,0,0,woman,107766831.0,National Center for Atmospheric Research,3526455519.0,,other,False,False,False
+243,meredith g hastings,5,17.0,2010,unknown,0.2713410823647044,1,0,0,woman,27804330.0,Brown University,3841252086.0,217156.0,R1,False,False,False
+787,r kontak,4,6.0,2010,sociology,0.5238095238095238,1,0,0,woman,27804330.0,Brown University,3841252086.0,217156.0,R1,False,False,False
+135,deanna prall,1,1.0,2011,engineering,0.0,0,0,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+182,barbara hacker,2,7.0,2009,unknown,0.0476190476190476,1,0,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+223,mary lucero ferrel,2,7.0,2009,medicine,0.0,0,0,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+371,jill nemiro,3,22.0,2007,unknown,0.1785714285714285,2,0,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+460,erika dejonghe,1,1.0,2011,psychology,0.1969696969696969,2,0,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+778,susan tucker,1,1.0,2011,engineering,0.0,0,0,0,woman,,,,,,,,
+9,erika g offerdahl,2,43.0,2013,psychology,0.1913265306122449,1,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+214,jennifer l momsen,2,43.0,2013,psychology,0.2460881934566145,0,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+547,marcy p osgood,1,1.0,2014,psychology,0.1714285714285714,0,0,0,woman,,,,,,,,
+217,sandra l laursen,11,265.0,2007,psychology,0.1629807692307692,8,1,1,woman,188538660.0,University of Colorado Boulder,3311607547.0,126614.0,R1,False,False,False
+762,kris de welde,4,113.0,2008,sociology,0.1111111111111111,3,1,0,woman,2801014300.0,unknown,,,,,,
+77,christine hult,2,72.0,2005,sociology,0.1904761904761904,1,0,0,woman,,,,,,,,
+26,michelle r hebl,5,328.0,2009,psychology,0.6166217161122765,30,1,10,woman,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+437,katharine ridgway obrien,3,30.0,2015,psychology,0.3333333333333333,2,0,0,woman,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+208,allison l steiner,3,7.0,2010,unknown,0.3995037220843672,2,0,0,woman,27837315.0,University of Michigan,44098792.0,170976.0,R1,False,False,False
+574,amanda s adams,3,7.0,2010,sociology,0.1380952380952381,1,0,0,woman,102149020.0,University of North Carolina at Charlotte,2210833833.0,199139.0,R2,False,False,False
+363,dalinda martinez,2,12.0,2015,political science,0.3333333333333333,1,0,0,man,87216513.0,Michigan State University,2617467897.0,171100.0,R1,False,False,False
+446,ann e austin,2,12.0,2015,political science,0.2622525154170724,4,0,0,woman,87216513.0,Michigan State University,2617467897.0,171100.0,R1,False,False,False
+779,melissa soto,2,12.0,2015,political science,1.0,1,0,0,woman,17900154.0,Association of American Colleges and Universities,1183998730.0,,other,False,False,False
+120,ronda roberts callister,3,218.0,2005,psychology,0.5689900426742532,1,0,0,man,121980950.0,Utah State University,961439496.0,230728.0,R2,False,False,False
+293,richard k martin,3,2.0,2015,computer science,0.3090562226461676,0,0,0,man,,,,,,,,
+503,m y lanzerotti,6,7.0,2013,engineering,0.1846917450365726,3,0,0,woman,119916105.0,Augsburg College,1162819328.0,,other,False,False,False
+534,charles cerny,2,2.0,2015,unknown,0.3014492753623188,0,0,0,man,1280414376.0,Air Force Research Laboratory,2948282514.0,,other,False,False,False
+581,bhargab chattopadhyay,2,2.0,2015,mathematics,0.4523076923076923,0,0,0,unknown,162577319.0,University of Texas at Dallas,3136594921.0,228787.0,R1,False,False,False
+601,b paul,2,2.0,2015,sociology,0.0,0,0,0,unknown,1280414376.0,Air Force Research Laboratory,2948282514.0,,other,False,False,False
+786,kelsey morgan irvin,4,4.0,2014,engineering,0.1428571428571428,1,0,0,woman,204465549.0,Washington University in St. Louis,1944632304.0,179867.0,R1,False,False,False
+788,elizabeth hiteshue,4,4.0,2014,engineering,0.1428571428571428,1,0,0,woman,79576946.0,University of Pennsylvania,2811053647.0,215062.0,R1,False,False,False
+833,s hochheiser,2,3.0,2014,sociology,0.0,0,0,0,man,108468826.0,Stevens Institute of Technology,2639210009.0,186867.0,R2,False,False,False
+820,michael geselowitz,4,4.0,2014,engineering,0.1904761904761904,1,0,0,man,108468826.0,Stevens Institute of Technology,2639210009.0,186867.0,R2,False,False,False
+895,derrick langley,5,5.0,2013,engineering,0.1944444444444444,1,0,0,man,,,,,,,,
+789,ruth guthrie,1,6.0,2009,computer science,0.1579831932773109,4,0,0,woman,,,,,,,,
+518,brian coller,1,1.0,2015,computer science,0.3040935672514619,0,0,0,man,102502594.0,Northern Illinois University,2241523156.0,147703.0,R2,False,False,False
+376,lesley s rigg,1,1.0,2015,unknown,0.1952380952380952,0,0,0,woman,102502594.0,Northern Illinois University,2241523156.0,147703.0,R2,False,False,False
+407,christopher mccord,1,1.0,2015,mathematics,0.5818815331010453,0,0,0,man,102502594.0,Northern Illinois University,2241523156.0,147703.0,R2,False,False,False
+427,amy levin,1,1.0,2015,sociology,0.2948717948717949,5,0,1,woman,102502594.0,Northern Illinois University,2241523156.0,147703.0,R2,False,False,False
+780,jeff reynolds,1,1.0,2015,sociology,0.0,0,0,0,man,102502594.0,Northern Illinois University,2241523156.0,147703.0,R2,False,False,False
+373,ronald j burke,1,111.0,2007,psychology,0.4575439872524297,46,0,2,man,,,,,,,,
+934,mary c mattis,1,111.0,2007,business,0.1666666666666666,3,0,0,woman,,,,,,,,
+568,l g lunsford,1,15.0,2015,unknown,0.2343395001622849,1,0,0,woman,138006243.0,University of Arizona,2711307440.0,104179.0,R1,False,False,False
+670,j denard thomas,1,15.0,2015,psychology,0.0,0,0,0,unknown,138006243.0,University of Arizona,2711307440.0,104179.0,R1,False,False,False
+721,helena a rodrigues,1,15.0,2015,psychology,0.0,0,0,1,woman,138006243.0,University of Arizona,2711307440.0,104179.0,R1,False,False,False
+115,molly sween,1,3.0,2011,psychology,0.1904761904761904,0,0,0,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+533,mary a armstrong,1,27.0,2015,sociology,0.3,4,1,2,woman,184759092.0,Lafayette College,2312692357.0,213385.0,carnegie,False,False,False
+589,jasna jovanovic,1,27.0,2015,psychology,0.3928571428571428,6,1,2,woman,149919469.0,California Polytechnic State University,1261533935.0,110422.0,carnegie,False,False,False
+585,laura rhoton,1,3.0,2010,sociology,0.1666666666666666,1,0,0,woman,,,,,,,,
+16,corinna schlombs,1,3.0,2015,engineering,0.0666666666666666,1,0,0,woman,,,,,,,,
+418,jessica lieberman,1,3.0,2015,political science,0.0,0,0,0,woman,,,,,,,,
+536,caroline m delong,1,3.0,2015,computer science,0.2242424242424242,0,0,0,woman,,,,,,,,
+744,ann howard,1,3.0,2015,political science,0.0,0,0,0,woman,,,,,,,,
+116,kathrin zippel,6,66.0,2014,political science,0.4609609609609609,21,0,0,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+573,k m uhly,1,34.0,2015,political science,0.0,1,0,0,unknown,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+606,l m visser,1,34.0,2015,sociology,0.1666666666666666,2,0,0,woman,145872427.0,Radboud University Nijmegen,4057057254.0,,other,False,False,False
+142,tahira m probst,6,74.0,2014,psychology,0.5243161094224924,3,1,0,woman,137317281.0,Washington State University Vancouver,55106726.0,,other,False,False,False
+461,lixin jiang,6,74.0,2014,psychology,0.7624167946748592,0,0,0,unknown,64185308.0,University of Wisconsin–Oshkosh,1629863217.0,240365.0,carnegie,False,False,False
+201,matthew meekins,1,5.0,2011,political science,0.3333333333333333,0,0,0,man,,,,,,,,
+412,mark kenyon,1,5.0,2011,sociology,0.0,0,0,0,man,,,,,,,,
+509,chelsea waugaman,1,5.0,2011,psychology,0.3333333333333333,0,0,0,woman,,,,,,,,
+689,amy levine,1,5.0,2011,political science,0.0,0,0,0,woman,,,,,,,,
+183,frank l samson,1,9.0,2014,psychology,0.2631578947368421,3,0,7,man,145608581.0,University of Miami,3549030308.0,135726.0,R1,False,False,False
+755,lawrence d bobo,1,9.0,2014,sociology,0.3366181410974244,21,0,44,man,136199984.0,Harvard University,2215833544.0,166027.0,R1,False,False,False
+466,james g hougland,2,8.0,2014,sociology,0.2540322580645161,5,0,1,man,143302722.0,University of Kentucky,139679301.0,157085.0,R1,False,False,False
+497,alice m agogino,1,323.0,2007,computer science,0.3805792466240227,1,0,0,woman,,,,,,,,
+493,susan k gardner,8,167.0,2012,sociology,0.3391304347826087,2,0,0,woman,7947594.0,University of Maine,3842802796.0,161253.0,R2,False,False,False
+705,richard a posthuma,2,47.0,2008,psychology,0.3104254324450677,6,0,0,man,86519309.0,University of Texas at Austin,3495061422.0,228778.0,R1,False,False,False
+359,m f garcia,5,47.0,2007,psychology,0.7843137254901961,1,0,4,woman,164936912.0,University of Texas at El Paso,2689189567.0,228796.0,R1,True,True,False
+988,a colella,1,36.0,2008,psychology,0.0,0,0,0,unknown,114832834.0,Tulane University,3758273046.0,160755.0,R1,False,False,False
+2,carol colatrella,1,79.0,2006,sociology,0.1108374384236453,7,0,1,woman,130701444.0,Georgia Institute of Technology,3565156514.0,139755.0,R1,False,False,False
+126,elizabeth a burroughs,3,0.0,2013,unknown,0.1873015873015873,1,0,0,woman,,,,,,,,
+592,jessica m deshler,2,0.0,2013,unknown,0.2733333333333333,1,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+99,lisa l harlow,3,76.0,2006,psychology,0.4018647281921618,16,2,0,woman,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+242,barbara silver,3,67.0,2006,psychology,0.1111111111111111,2,0,0,woman,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+508,david a stuart,1,45.0,2007,computer science,0.0,0,0,0,man,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+584,joan peckham,2,46.0,2006,computer science,0.6464011180992313,0,0,0,woman,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+651,helen mederer,2,46.0,2006,psychology,0.282051282051282,2,0,0,woman,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+977,peter stephenson,1,45.0,2007,computer science,0.4947368421052631,0,0,0,man,,,,,,,,
+954,faye linda wachs,1,15.0,2007,sociology,0.2877492877492877,12,1,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+312,kimberly k buch,2,52.0,2010,psychology,0.2952380952380952,0,0,0,woman,102149020.0,University of North Carolina at Charlotte,2210833833.0,199139.0,R2,False,False,False
+612,katrina knudsen,1,61.0,2013,psychology,0.0,0,0,0,woman,,,,,,,,
+756,jill jones,1,61.0,2013,psychology,0.0,0,0,0,woman,,,,,,,,
+139,george f tomossy,1,1.0,2002,political science,0.1713900134952766,0,0,0,man,129604602.0,unknown,,,,,,
+124,molly carnes,22,748.0,2003,medicine,0.3136408392032114,32,1,11,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+561,judyann bigby,1,3.0,2007,medicine,0.9047619047619048,2,1,6,woman,1283280774.0,Brigham and Women's Hospital,757437870.0,,other,False,False,False
+361,yiming wang,1,4.0,2012,geology,0.1402439024390244,0,0,0,man,,,,,,,,
+830,mirjam s glessmer,1,4.0,2012,engineering,0.0,0,0,0,woman,,,,,,,,
+221,gary j burkholder,1,10.0,2006,psychology,0.4323835368611488,13,2,5,man,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+529,jennifer ann morrow,1,10.0,2006,psychology,0.7010752688172043,3,0,1,woman,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+10,rhonda c magel,2,2.0,2013,mathematics,0.4902482269503546,1,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+227,charlotte chorn dunham,1,5.0,2012,psychology,0.327485380116959,5,0,2,woman,12315562.0,Texas Tech University,2294551921.0,229115.0,R1,False,False,False
+451,caryl heintz,1,5.0,2012,unknown,0.1944444444444444,0,0,0,woman,12315562.0,Texas Tech University,2294551921.0,229115.0,R1,False,False,False
+605,laura hartin weathers,1,5.0,2012,psychology,0.0,0,0,0,woman,32389192.0,University of Alabama at Birmingham,4027481633.0,100663.0,R1,False,False,False
+808,karlene a hoo,1,5.0,2012,mathematics,0.2071881606765327,0,0,0,woman,12315562.0,Texas Tech University,2294551921.0,229115.0,R1,False,False,False
+25,amy stambach,2,66.0,2003,sociology,0.3469010175763182,11,0,1,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+190,ramona gunter,2,66.0,2003,sociology,0.3333333333333333,1,0,0,woman,14403649.0,University of Wisconsin–River Falls,2638073820.0,240471.0,carnegie,False,False,False
+430,maria del carmen triana,2,0.0,2009,psychology,0.4626582278481013,10,0,16,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+456,jennifer sheridan,13,385.0,2003,psychology,0.2620689655172414,10,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+590,jo handelsman,12,314.0,2004,biology,0.6131762973868237,16,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+56,cecilia h marzabadi,1,5.0,2011,unknown,0.6516129032258065,3,0,0,woman,,,,,,,,
+191,natalie foster,1,5.0,2011,unknown,0.5047619047619047,1,0,0,woman,186143895.0,Lehigh University,1213318465.0,213543.0,R2,False,False,False
+365,susan a nolan,1,5.0,2011,psychology,0.7192982456140351,2,0,0,woman,,,,,,,,
+607,janine p buckner,1,5.0,2011,psychology,0.4,2,0,0,woman,,,,,,,,
+343,sally chapman,1,5.0,2011,mathematics,0.0,2,0,0,woman,98540497.0,Barnard College,1973835356.0,189097.0,carnegie,False,False,False
+39,nancy m tooney,1,5.0,2011,engineering,0.25,1,0,0,woman,,,,,,,,
+571,felicia f dixon,1,5.0,2011,unknown,0.6,1,0,0,woman,190567190.0,American Chemical Society,2724124343.0,,other,False,False,False
+406,deborah a mccarthy,1,5.0,2011,unknown,0.8666666666666667,1,0,0,woman,884745506.0,Saint Mary's College,3905176590.0,152390.0,carnegie,False,False,False
+984,valerie j kuck,1,5.0,2011,unknown,0.0,1,0,0,woman,155538133.0,College of Saint Elizabeth,4290004423.0,186618.0,carnegie,False,False,False
+345,laura l wright,2,19.0,2010,unknown,0.2222222222222222,2,0,0,woman,86115722.0,Furman University,605705834.0,218070.0,carnegie,False,False,False
+358,miriam rossi,2,19.0,2010,unknown,0.7368788819875777,2,0,0,woman,126820664.0,Vassar College,3871968907.0,197133.0,carnegie,False,False,False
+672,bridget l gourley,2,19.0,2010,unknown,0.1333333333333333,2,0,0,woman,12113309.0,DePauw University,1316194052.0,150400.0,carnegie,False,False,False
+290,wendi l benson,3,11.0,2014,psychology,0.4444444444444444,0,0,0,woman,147912653.0,Nevada State College,641330019.0,441900.0,carnegie,True,True,False
+308,maja graso,2,6.0,2014,psychology,0.2086021505376344,2,0,0,woman,80281795.0,University of Otago,2645582614.0,,other,False,False,False
+614,nelly p stromquist,1,33.0,2015,sociology,0.3156668608037274,28,0,1,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+90,stephanie pfirman,7,187.0,2007,geology,0.1640967066438226,5,0,1,woman,98540497.0,Barnard College,1973835356.0,189097.0,carnegie,False,False,False
+313,robin e bell,6,11.0,2007,geology,0.4305728363111531,7,0,1,man,152304114.0,Lamont–Doherty Earth Observatory,996087284.0,,other,False,False,False
+470,j d laird,5,10.0,2007,political science,0.2026143790849673,3,0,2,woman,152304114.0,Lamont–Doherty Earth Observatory,996087284.0,,other,False,False,False
+467,geraldine downey,1,2.0,2007,psychology,0.745253164556962,6,0,2,woman,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+0,mila kryjevskaia,1,42.0,2013,psychology,0.2034632034632034,0,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+129,lisa montplaisir,1,42.0,2013,psychology,0.4476190476190476,0,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+408,warren m christensen,1,42.0,2013,physics,0.2219061166429587,0,0,0,man,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+498,shanda lauer,1,42.0,2013,psychology,0.2222222222222222,0,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+152,deborah a kaminski,2,125.0,2007,unknown,0.2085365853658536,0,0,0,woman,165799507.0,Rensselaer Polytechnic Institute,1611360196.0,194824.0,R1,False,False,False
+253,cheryl geisler,2,125.0,2007,computer science,0.2213225371120108,0,0,0,woman,18014758.0,Simon Fraser University,752601271.0,,other,False,False,False
+42,yvette m huet,2,33.0,2011,biology,0.2666666666666666,1,0,0,woman,114027177.0,University of North Carolina at Chapel Hill,1397069697.0,199120.0,R1,False,False,False
+76,audrey rorrer,1,33.0,2011,computer science,0.2206349206349206,0,1,2,woman,,,,,,,,
+570,lynn roberson,1,33.0,2011,sociology,0.0,0,0,0,woman,102149020.0,University of North Carolina at Charlotte,2210833833.0,199139.0,R2,False,False,False
+32,jessica t decuirgunby,4,25.0,2009,sociology,0.2901439645625692,11,4,20,woman,137902535.0,North Carolina State University,2263107286.0,199193.0,R1,False,False,False
+379,christine s grant,6,27.0,2009,unknown,0.2251366120218579,4,4,6,woman,137902535.0,North Carolina State University,2263107286.0,199193.0,R1,False,False,False
+594,bradley gregory,1,13.0,2013,sociology,1.0,1,1,0,man,68812265.0,Anderson University (South Carolina),3733825808.0,217633.0,carnegie,False,False,False
+677,daniela veliz,1,24.0,2014,sociology,0.2166666666666666,2,0,0,woman,,,,,,,,
+141,lois ongley,2,46.0,2003,sociology,0.2,2,0,0,woman,875066120.0,Unity College,3142592154.0,161572.0,carnegie,False,False,False
+336,connie frey,2,46.0,2003,sociology,0.1428571428571428,3,0,0,woman,87547150.0,Southern Illinois University Edwardsville,1481520422.0,149231.0,R3,False,False,False
+262,asia a eaton,2,15.0,2013,psychology,0.7658979734451432,22,2,3,woman,19700959.0,Florida International University,4176811649.0,133951.0,R1,True,True,False
+531,suzanna m rose,1,2.0,2013,psychology,0.6208754208754209,33,0,4,woman,19700959.0,Florida International University,4176811649.0,133951.0,R1,True,True,False
+197,bill rocque,1,29.0,2009,psychology,0.0,0,0,0,man,193054373.0,University of Redlands,3185634078.0,121691.0,carnegie,False,False,False
+93,mary ballyk,1,1.0,2005,mathematics,0.4264705882352941,0,0,0,woman,10052268.0,New Mexico State University,1766726279.0,188030.0,R2,True,True,False
+148,michael r golinski,1,1.0,2005,biology,0.1666666666666666,0,0,0,man,10052268.0,New Mexico State University,1766726279.0,188030.0,R2,True,True,False
+554,e barany,1,1.0,2005,mathematics,0.2942176870748299,0,0,0,man,10052268.0,New Mexico State University,1766726279.0,188030.0,R2,True,True,False
+458,jennifer hickes lundquist,1,33.0,2012,sociology,0.1512195121951219,14,1,13,woman,24603500.0,University of Massachusetts Amherst,841928199.0,166629.0,R1,False,False,False
+472,joya misra,6,69.0,2012,sociology,0.2607709750566893,21,4,8,woman,24603500.0,University of Massachusetts Amherst,841928199.0,166629.0,R1,False,False,False
+1,michele g wheatly,2,27.0,2013,biology,0.5261261261261261,1,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+17,emily polander,1,23.0,2013,psychology,0.5,0,0,0,woman,19648265.0,Wright State University,3366909973.0,206604.0,R2,False,False,False
+106,peggy desautels,1,23.0,2013,psychology,0.2364672364672364,11,0,0,woman,127591826.0,University of Dayton,2470341280.0,202480.0,R2,False,False,False
+220,rebecca r riffle,2,23.0,2011,psychology,0.3,0,0,0,woman,19648265.0,Wright State University,3366909973.0,206604.0,R2,False,False,False
+404,sarah m jackson,3,83.0,2011,psychology,0.2666666666666666,2,0,1,woman,19648265.0,Wright State University,3366909973.0,206604.0,R2,False,False,False
+411,tamera r schneider,2,83.0,2013,psychology,0.5271493212669683,1,0,1,woman,19648265.0,Wright State University,3366909973.0,206604.0,R2,False,False,False
+559,amy l hillard,2,83.0,2013,psychology,0.5357142857142857,2,0,1,woman,147193464.0,Adrian College,1373307686.0,168528.0,carnegie,False,False,False
+165,leanne m mauriello,1,21.0,2006,medicine,0.3801169590643274,1,0,1,woman,,,,,,,,
+367,janice m prochaska,1,21.0,2006,psychology,0.3657407407407407,2,0,1,woman,,,,,,,,
+669,janet trubatch,1,21.0,2006,psychology,0.0,1,0,0,woman,17626003.0,University of Rhode Island,162396701.0,217484.0,R2,False,False,False
+825,karen j sherman,1,21.0,2006,medicine,0.3333333333333333,1,0,0,woman,,,,,,,,
+49,elin m skagerberg,1,13.0,2015,psychology,0.5876923076923077,10,0,0,woman,150545354.0,Tavistock and Portman NHS Foundation Trust,3497041310.0,,other,False,False,False
+410,daniel b wright,1,13.0,2015,psychology,0.3279696774654938,9,0,4,man,,,,,,,,
+273,carol isaac,3,205.0,2009,psychology,0.2773109243697479,9,0,1,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+724,barbara lee,3,205.0,2009,psychology,0.2,4,0,1,woman,,,,,,,,
+38,laurie a rudman,1,100.0,2013,psychology,0.7690440627333831,38,1,5,woman,102322142.0,Rutgers University,2007474793.0,186380.0,R1,False,False,False
+109,helen m buettner,1,100.0,2013,biology,0.1592039800995024,0,0,0,woman,102322142.0,Rutgers University,2007474793.0,186380.0,R1,False,False,False
+344,meghan c mclean,1,100.0,2013,psychology,1.0,0,0,0,woman,102322142.0,Rutgers University,2007474793.0,186380.0,R1,False,False,False
+749,danielle m young,1,100.0,2013,psychology,0.7010752688172043,11,0,11,woman,102322142.0,Rutgers University,2007474793.0,186380.0,R1,False,False,False
+360,kareen ror malone,1,127.0,2009,sociology,0.3111111111111111,11,0,2,woman,5950314.0,University of West Georgia,4171058749.0,141334.0,R3,False,False,False
+826,gilda a barabino,1,127.0,2009,biology,0.1424501424501424,1,0,2,woman,130701444.0,Georgia Institute of Technology,3565156514.0,139755.0,R1,False,False,False
+101,kathryn scantlebury,1,5.0,2004,sociology,0.2713807088696879,25,4,3,woman,86501945.0,University of Delaware,2223053423.0,130943.0,R1,False,False,False
+222,geraldine l richmond,1,5.0,2004,unknown,0.5640464798359536,9,0,2,woman,181233156.0,University of Oregon,3965217432.0,209551.0,R1,False,False,False
+782,ruth e fassinger,1,5.0,2004,psychology,0.5943977591036415,48,1,6,woman,178102782.0,John F. Kennedy University,1566352551.0,116712.0,R3,True,True,False
+122,elizabeth g creamer,6,12.0,2005,psychology,0.2303849544519541,2,0,0,woman,859038795.0,Virginia Tech,2324274490.0,233921.0,R1,False,False,False
+483,catherine t amelink,1,8.0,2007,engineering,0.3270440251572327,0,0,0,woman,859038795.0,Virginia Tech,2324274490.0,233921.0,R1,False,False,False
+350,shannon k mccoy,2,21.0,2013,psychology,0.5375375375375375,2,1,0,woman,7947594.0,University of Maine,3842802796.0,161253.0,R2,False,False,False
+537,ellen e newell,2,21.0,2013,psychology,0.5357142857142857,1,0,0,woman,7947594.0,University of Maine,3842802796.0,161253.0,R2,False,False,False
+105,amy s wharton,2,12.0,2014,sociology,0.2657004830917874,11,0,1,woman,137317281.0,Washington State University Vancouver,55106726.0,,other,False,False,False
+281,jessica winchell,3,13.0,2006,political science,0.5,1,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+657,christine maidl pribbenow,7,66.0,2006,psychology,0.175438596491228,2,0,3,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+688,deveny benting,2,12.0,2006,unknown,0.0,1,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+61,tamela mcnulty eitle,1,8.0,2009,psychology,0.3078078078078078,6,0,10,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+464,matthew steffens,1,8.0,2009,psychology,0.0,1,0,1,man,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+192,sara helms,1,11.0,2014,economics,0.2826086956521739,1,0,0,woman,83321563.0,Samford University,1683233478.0,102049.0,R3,False,False,False
+731,tom mckenzie,1,11.0,2014,unknown,0.0,0,0,0,man,124357947.0,University of London,2881002284.0,,other,False,False,False
+694,jeanlou chameau,1,39.0,2006,geology,0.0989010989010989,0,0,0,man,130701444.0,Georgia Institute of Technology,3565156514.0,139755.0,R1,False,False,False
+127,catherine mavriplis,2,93.0,2009,unknown,0.1357589984350547,2,0,1,woman,153718931.0,University of Ottawa,3694599399.0,,other,False,False,False
+449,lori anderson snyder,1,47.0,2009,psychology,0.3359683794466403,1,0,1,woman,8692664.0,University of Oklahoma,1914578164.0,207500.0,R1,False,False,False
+562,lauren v blackwell,1,47.0,2009,psychology,0.1666666666666666,1,0,0,woman,8692664.0,University of Oklahoma,1914578164.0,207500.0,R1,False,False,False
+125,patricia j culligan,3,5.0,2008,unknown,0.1576698476000569,0,0,0,woman,,,,,,,,
+769,p balsam,3,6.0,2007,sociology,0.3333333333333333,0,0,0,man,,,,,,,,
+802,jocelyn chertoff,1,59.0,2011,medicine,0.0,1,0,0,woman,,,,,,,,
+206,debbie a niemeier,2,37.0,2004,engineering,0.1509661835748792,1,0,4,woman,84218800.0,"University of California, Davis",306192696.0,110644.0,R1,False,False,False
+298,cristina gonzalez,1,36.0,2004,unknown,0.1718931475029036,1,0,0,woman,,,,,,,,
+226,patricia a higgins,1,87.0,2006,medicine,0.5461309523809523,0,0,0,woman,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+621,eleanor palo stoller,1,87.0,2006,medicine,0.3423076923076923,4,0,1,woman,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+647,susan perry,1,87.0,2006,psychology,0.2,0,0,0,woman,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+854,c taylor,1,87.0,2006,physics,0.8568396226415095,0,0,0,man,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+813,delois kijana crawford,6,5.0,2014,sociology,0.1904761904761904,0,3,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+63,s marie mccarther,2,15.0,2005,political science,0.0,0,0,0,unknown,,,,,,,,
+835,deborah j obannon,2,15.0,2005,sociology,0.0,0,0,0,woman,,,,,,,,
+876,david o renz,2,15.0,2005,business,0.2735632183908046,0,0,0,man,,,,,,,,
+877,linda garavalia,2,15.0,2005,political science,0.0,0,0,0,woman,,,,,,,,
+489,corbin m campbell,4,255.0,2011,psychology,0.3264367816091954,1,0,1,man,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+851,stephanie pincus,2,144.0,2011,medicine,0.5583333333333333,1,0,0,woman,1286243315.0,Society for Women's Health Research,2898225469.0,,other,False,False,False
+543,anne e lincoln,2,144.0,2011,sociology,0.0904761904761904,4,0,0,woman,178169726.0,Southern Methodist University,2157990670.0,228246.0,R2,False,False,False
+19,cali l anicha,8,25.0,2012,sociology,0.4358974358974359,3,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+224,christi r mcgeorge,4,11.0,2012,psychology,0.4956140350877193,33,1,2,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+487,ann burnett,10,24.0,2010,psychology,0.2285714285714285,5,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+29,krista lynn minnotte,1,52.0,2010,psychology,0.392090395480226,9,1,2,woman,24571045.0,University of North Dakota,3725107953.0,200280.0,R2,False,False,False
+386,christy glass,2,57.0,2010,political science,0.1788211788211788,23,0,10,woman,121980950.0,Utah State University,961439496.0,230728.0,R2,False,False,False
+7,jill m bystydzienski,1,67.0,2015,political science,0.3228803716608595,21,3,0,woman,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+306,anand desai,2,71.0,2012,economics,0.1395918367346938,2,0,0,man,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+638,nicole r thomas,2,84.0,2015,sociology,0.0952380952380952,2,0,0,woman,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+263,arturo casadevall,1,44.0,2013,biology,0.4384884926975583,3,0,11,man,129975664.0,Albert Einstein College of Medicine,4044133068.0,,other,False,False,False
+448,ferric c fang,1,44.0,2013,biology,0.4131835299243721,4,0,0,unknown,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+933,j w bennett,1,44.0,2013,biology,0.4715778994524639,4,0,0,woman,102322142.0,Rutgers University,2007474793.0,186380.0,R1,False,False,False
+311,lori l bakken,2,71.0,2003,medicine,0.3632183908045977,2,0,4,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+615,carole j bland,1,44.0,2007,medicine,0.416389811738649,1,0,0,woman,,,,,,,,
+828,sushanta mohapatra,1,140.0,2007,sociology,0.0,0,0,0,unknown,,,,,,,,
+348,r neill johnson,1,52.0,2011,psychology,0.3333333333333333,2,0,0,unknown,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+37,mark v roehling,1,11.0,2009,psychology,0.3795355587808418,1,0,2,man,87216513.0,Michigan State University,2617467897.0,171100.0,R1,False,False,False
+236,igor ryabov,1,3.0,2008,psychology,0.2428571428571428,4,1,4,man,146079424.0,unknown,,,,,,
+610,patricia witherspoon,1,3.0,2008,unknown,0.0,0,0,0,woman,164936912.0,University of Texas at El Paso,2689189567.0,228796.0,R1,True,True,False
+50,janet k swim,1,73.0,2014,psychology,0.551796572692095,20,1,16,woman,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+513,maura borrego,2,147.0,2007,engineering,0.2031427023299344,4,0,4,woman,859038795.0,Virginia Tech,2324274490.0,233921.0,R1,False,False,False
+288,carolyn fonseca,2,114.0,2006,psychology,1.0,0,0,0,woman,130701444.0,Georgia Institute of Technology,3565156514.0,139755.0,R1,False,False,False
+565,kacey beddoes,6,67.0,2012,sociology,0.249496981891348,11,0,0,woman,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+678,kyle jones,1,6.0,2014,sociology,0.6,1,0,0,man,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+78,sandra sgoutasemch,2,1.0,2014,psychology,0.3516483516483517,2,1,0,woman,160856358.0,University of San Diego,1811589614.0,122436.0,R2,False,False,False
+168,lisa m baird,2,1.0,2014,biology,0.6111111111111112,0,1,0,woman,160856358.0,University of San Diego,1811589614.0,122436.0,R2,False,False,False
+255,jane friedman,2,1.0,2014,mathematics,0.3455882352941176,1,1,0,woman,160856358.0,University of San Diego,1811589614.0,122436.0,R2,False,False,False
+301,perla myers,2,1.0,2014,psychology,0.25,1,1,0,woman,160856358.0,University of San Diego,1811589614.0,122436.0,R2,False,False,False
+434,susan m lord,3,4.0,2014,engineering,0.167442488025366,12,6,17,woman,160856358.0,University of San Diego,1811589614.0,122436.0,R2,False,False,False
+436,michelle m camacho,3,4.0,2014,sociology,0.1688311688311688,7,5,10,woman,160856358.0,University of San Diego,1811589614.0,122436.0,R2,False,False,False
+393,s a baum,4,7.0,2011,physics,0.6624692542115929,0,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+426,margaret b bailey,12,9.0,2011,engineering,0.2259164535379369,0,1,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+501,maureen valentine,8,6.0,2011,engineering,0.2333333333333333,0,1,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+502,sharon patricia mason,8,9.0,2011,computer science,0.1333333333333333,0,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+506,betsy dell,1,0.0,2014,computer science,0.0,0,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+620,carol marchetti,10,8.0,2011,psychology,0.1,1,1,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+658,laurie clayton,2,0.0,2014,computer science,0.0,0,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+859,susan foster,2,0.0,2014,psychology,0.1636363636363636,2,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+209,lisa m frehill,4,77.0,2004,sociology,0.2132132132132132,11,1,2,woman,10052268.0,New Mexico State University,1766726279.0,188030.0,R2,True,True,False
+104,christopher n brammer,1,4.0,2008,unknown,0.5083333333333333,1,0,0,man,8692664.0,University of Oklahoma,1914578164.0,207500.0,R1,False,False,False
+215,donna j nelson,4,166.0,2005,unknown,0.5851106639839034,4,0,2,woman,8692664.0,University of Oklahoma,1914578164.0,207500.0,R1,False,False,False
+239,mary e dozier,1,154.0,2013,psychology,0.6106122448979592,0,0,0,woman,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+332,lesley g campbell,1,154.0,2013,biology,0.72,0,0,0,woman,530967.0,Ryerson University,311401431.0,,other,False,False,False
+538,siya mehtani,1,154.0,2013,biology,0.0,0,0,0,woman,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+730,janice rinehart,6,170.0,2008,political science,0.2307692307692307,1,1,1,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+44,eve a riskin,4,21.0,2007,computer science,0.3152084556664709,3,0,0,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+351,joyce w yen,5,27.0,2007,sociology,0.119047619047619,4,0,1,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+372,kate quinn,2,17.0,2007,political science,0.2545454545454545,0,0,1,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+479,sheila edwards lange,1,7.0,2007,political science,0.2,2,0,0,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+683,sheri perelli,1,71.0,2013,business,0.217391304347826,4,0,0,woman,185443292.0,Wayne State University,3259835826.0,172644.0,R1,False,False,False
+695,kathleen buse,1,71.0,2013,psychology,0.3014705882352941,4,0,2,woman,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+133,mary virnoche,1,3.0,2014,engineering,0.1601731601731601,1,0,3,woman,192389796.0,Humboldt State University,2675066886.0,115755.0,carnegie,True,True,False
+136,e a eschenbach,1,3.0,2014,engineering,0.2606060606060606,3,0,4,woman,192389796.0,Humboldt State University,2675066886.0,115755.0,carnegie,True,True,False
+369,eileen cashman,1,3.0,2014,engineering,0.3933333333333333,3,0,1,woman,192389796.0,Humboldt State University,2675066886.0,115755.0,carnegie,True,True,False
+231,eve fine,6,281.0,2005,psychology,0.2417582417582417,3,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+353,stacie e geller,1,42.0,2005,medicine,0.7828467153284672,5,0,1,woman,,,,,,,,
+198,amy blackstone,3,27.0,2013,psychology,0.3850806451612903,6,0,0,woman,7947594.0,University of Maine,3842802796.0,161253.0,R2,False,False,False
+131,leslie e tower,4,40.0,2014,psychology,0.3075268817204301,9,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+167,anna c faul,1,8.0,2015,psychology,0.2904428904428904,4,0,0,woman,26999989.0,University of the Free State,2475763986.0,,other,False,False,False
+276,wanda lott collins,1,8.0,2015,psychology,0.3181818181818182,3,0,0,woman,142740786.0,University of Louisville,2099178510.0,157289.0,R1,False,False,False
+391,priscilla a gibson,1,8.0,2015,psychology,0.3114035087719298,16,2,9,woman,130238516.0,University of Minnesota,1853563168.0,174066.0,R1,False,False,False
+985,johnnie hamiltonmason,1,8.0,2015,psychology,0.6,4,1,1,man,179245896.0,Simmons College,1122135662.0,167783.0,R3,False,False,False
+110,ann m beutel,1,22.0,2006,psychology,0.4857142857142857,10,0,5,woman,8692664.0,University of Oklahoma,1914578164.0,207500.0,R1,False,False,False
+807,a e michaels,1,2.0,2007,economics,0.0,0,0,0,unknown,,,,,,,,
+327,cora bagley marrett,1,185.0,2005,political science,0.0,2,0,0,woman,,,,,,,,
+707,denice denton,1,185.0,2005,political science,0.0,2,0,0,woman,,,,,,,,
+58,barbara grosz,1,185.0,2005,computer science,0.5577026301663983,2,0,0,woman,,,,,,,,
+797,virginia hinshaw,1,185.0,2005,political science,0.0,1,0,0,woman,,,,,,,,
+817,donna e shalala,1,185.0,2005,business,0.1454545454545454,3,0,1,woman,,,,,,,,
+397,randi c martin,1,250.0,2009,psychology,0.7387946819520739,5,0,0,woman,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+442,juan m madera,2,298.0,2009,psychology,0.4974008207934337,11,0,4,man,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+324,patricia flatley brennan,1,5.0,2006,medicine,0.3105069173655253,1,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+28,starr roxanne hiltz,1,8.0,2007,computer science,0.3414506730962427,0,0,0,woman,118118575.0,New Jersey Institute of Technology,2881463209.0,185828.0,R1,False,False,False
+128,maria m plummer,1,8.0,2007,computer science,0.2,0,0,0,woman,118118575.0,New Jersey Institute of Technology,2881463209.0,185828.0,R1,False,False,False
+196,quentin jones,1,8.0,2007,computer science,0.4324561403508772,1,0,0,man,118118575.0,New Jersey Institute of Technology,2881463209.0,185828.0,R1,False,False,False
+942,e kim,1,8.0,2007,computer science,0.0,0,0,0,unknown,21700936.0,Northern State University,3046703153.0,219259.0,carnegie,False,False,False
+811,jinghui bao,1,110.0,2011,psychology,0.0,0,0,0,unknown,,,,,,,,
+176,anna kaatz,1,31.0,2012,psychology,0.4338461538461538,6,0,5,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+60,melissa c thomashunt,1,36.0,2009,psychology,0.2365591397849462,2,0,2,woman,51556381.0,University of Virginia,2123654681.0,234076.0,R1,False,False,False
+341,susan f cabrera,1,36.0,2009,psychology,0.0,1,0,0,woman,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+425,stephen j sauer,1,36.0,2009,psychology,0.328735632183908,1,0,0,man,16944753.0,Clarkson University,1885532354.0,190044.0,R2,False,False,False
+943,anish bavishi,1,48.0,2010,psychology,0.0,1,0,0,man,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+734,darlene f saporu,1,1.0,2015,psychology,0.0,1,0,0,woman,1925986.0,Loyola University Chicago,4113472962.0,146719.0,R2,False,False,False
+757,joan m herbers,5,26.0,2012,biology,0.7278688524590164,13,0,2,woman,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+64,francine d blau,2,104.0,2010,economics,0.4426432810700682,66,4,15,woman,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+156,donna k ginther,2,104.0,2010,psychology,0.1975347661188369,19,1,7,woman,146416000.0,University of Kansas,1960803134.0,155317.0,R1,False,False,False
+417,janet currie,2,104.0,2010,medicine,0.1930203806099771,7,0,19,woman,20089843.0,Princeton University,173566354.0,186131.0,R1,False,False,False
+494,rachel croson,2,104.0,2010,economics,0.3048249591873753,3,0,0,woman,87216513.0,Michigan State University,2617467897.0,171100.0,R1,False,False,False
+542,diana rhoten,1,176.0,2007,sociology,0.6444444444444445,0,0,1,woman,1284584826.0,Social Science Research Council,2855250061.0,,other,False,False,False
+52,mary blairloy,2,94.0,2014,sociology,0.2801418439716312,11,0,3,woman,36258959.0,"University of California, San Diego",923795525.0,110680.0,R1,False,False,False
+491,erin a cech,3,94.0,2014,sociology,0.2474289171203871,20,2,3,woman,74775410.0,Rice University,3820954773.0,227757.0,R1,False,False,False
+340,stephanie c payne,5,37.0,2014,psychology,0.518796992481203,2,0,0,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+558,xiaohong xu,3,26.0,2014,psychology,0.698781838316722,2,0,0,unknown,81365321.0,Old Dominion University,285518290.0,232982.0,R2,False,False,False
+452,karla a erickson,1,6.0,2010,sociology,0.3320158102766798,7,1,2,woman,173288447.0,Grinnell College,2920817545.0,153384.0,carnegie,False,False,False
+54,caterina scoglio,1,1.0,2007,computer science,0.3843421636821074,5,0,0,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+86,don gruenbacher,1,1.0,2007,computer science,0.3240816326530612,0,0,0,man,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+180,balasubramaniam natarajan,1,1.0,2007,computer science,0.5502597314983472,0,0,0,man,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+328,anil pahwa,1,1.0,2007,engineering,0.4555984555984556,2,0,0,man,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+548,m muguira,1,1.0,2007,unknown,0.0,0,0,0,unknown,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+939,c lewis,1,1.0,2007,unknown,0.0,0,0,0,unknown,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+23,enrica n ruggs,1,13.0,2015,psychology,0.4230343300110742,11,1,4,woman,102149020.0,University of North Carolina at Charlotte,2210833833.0,199139.0,R2,False,False,False
+922,larry r martinez,1,13.0,2015,psychology,0.4963715529753265,20,0,1,man,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+384,robyn a berkley,1,29.0,2007,psychology,0.3684210526315789,1,0,0,woman,,,,,,,,
+159,christina d falci,3,40.0,2016,psychology,0.5380116959064327,2,0,2,woman,114395901.0,University of Nebraska–Lincoln,3390882279.0,181464.0,R1,False,False,False
+163,loriann roberson,2,87.0,2010,psychology,0.5187165775401069,1,0,5,woman,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+279,caryn j block,2,87.0,2010,psychology,0.5918003565062389,4,1,7,woman,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+403,sandy m koch,1,86.0,2011,psychology,1.0,0,0,2,woman,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+609,benjamin e liberman,1,86.0,2011,psychology,0.6111111111111112,5,0,2,man,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+691,tarani j merriweather,1,86.0,2011,psychology,0.0,0,0,1,unknown,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+268,cathy kessel,1,6.0,2011,mathematics,0.0879120879120879,1,0,0,woman,,,,,,,,
+814,margaret layne,5,6.0,2005,engineering,0.0666666666666666,0,0,0,woman,,,,,,,,
+246,in paik,1,1168.0,2007,psychology,0.6,0,0,0,unknown,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+295,stephen benard,2,1184.0,2007,psychology,0.3715415019762846,2,0,1,man,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+564,shelley j correll,3,1193.0,2007,psychology,0.3499446290143964,16,0,3,woman,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+729,janet bandows koster,1,122.0,2012,sociology,0.0,1,0,0,woman,86484424.0,Association for Women in Science,1696911125.0,,other,False,False,False
+14,elizabeth litzler,3,10.0,2007,political science,0.1292517006802721,7,2,8,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+248,coleen carrigan,4,15.0,2007,sociology,0.1437908496732026,6,1,0,woman,98947143.0,"California State Polytechnic University, Pomona",3785258260.0,110529.0,carnegie,False,False,False
+82,angela byarswinston,2,55.0,2011,psychology,0.3551948051948052,5,1,7,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+395,sharon topp,1,54.0,2011,psychology,0.0,0,0,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+424,belinda gutierrez,1,54.0,2011,psychology,0.7142857142857143,0,0,3,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+200,debra m easterly,1,9.0,2008,sociology,0.0,0,0,0,woman,,,,,,,,
+12,dafna gelbgiser,2,162.0,2013,psychology,0.141025641025641,9,0,3,woman,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+68,kim a weeden,2,162.0,2013,economics,0.2279569892473118,7,0,1,woman,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+516,stephen l morgan,1,138.0,2013,psychology,0.147565543071161,4,0,2,man,205783295.0,Cornell University,1190280161.0,190415.0,R1,False,False,False
+392,joyce mccarl nielsen,1,128.0,2007,sociology,0.2857142857142857,6,0,0,woman,188538660.0,University of Colorado Boulder,3311607547.0,126614.0,R1,False,False,False
+280,vanessa a jean,1,10.0,2015,psychology,0.2,2,0,0,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+305,rebecca j thompson,2,10.0,2013,psychology,0.2720588235294117,4,0,1,woman,6059380.0,University of Baltimore,3002676532.0,161873.0,carnegie,False,False,False
+304,rebecca brent,1,0.0,2012,psychology,0.2019975031210986,1,1,0,woman,,,,,,,,
+67,charlene maxeyharris,1,4.0,2010,political science,0.1142857142857142,0,0,0,woman,114395901.0,University of Nebraska–Lincoln,3390882279.0,181464.0,R1,False,False,False
+381,idalia ramos,2,0.0,2003,unknown,0.7105590062111802,0,0,0,woman,23968078.0,University of Puerto Rico at Humacao,680176345.0,243179.0,carnegie,True,True,False
+481,a valdeswochinger,1,0.0,2003,psychology,0.0,0,0,0,unknown,,,,,,,,
+772,m vega,1,0.0,2003,psychology,0.0,0,0,0,unknown,,,,,,,,
+62,ruth a streveler,1,36.0,2008,engineering,0.2792626728110599,0,0,0,woman,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+309,karl a smith,1,36.0,2008,engineering,0.1437722419928825,0,1,0,man,130238516.0,University of Minnesota,1853563168.0,174066.0,R1,False,False,False
+334,ronald l miller,1,36.0,2008,engineering,0.3223787167449139,0,0,0,man,167576493.0,Colorado School of Mines,2758855424.0,126775.0,R2,False,False,False
+315,kelly a rusch,1,4.0,2008,unknown,0.1875298614429049,0,0,0,woman,121820613.0,Louisiana State University,373313306.0,159391.0,R1,False,False,False
+383,corri zoli,3,4.0,2004,political science,0.2371541501976284,2,0,0,woman,70983195.0,Syracuse University,352013657.0,196413.0,R1,False,False,False
+726,shobha k bhatia,3,4.0,2004,engineering,0.2146596858638743,6,0,0,woman,,,,,,,,
+982,valerie davidson,2,4.0,2005,sociology,0.0,0,0,0,woman,91275662.0,Science and Engineering Research Council,4272006099.0,,other,False,False,False
+166,cheryl beil,1,46.0,2010,psychology,0.6,0,0,0,woman,193531525.0,George Washington University,529527708.0,131469.0,R1,False,False,False
+266,rachelle s heller,1,46.0,2010,computer science,0.3546971027216857,2,0,0,woman,193531525.0,George Washington University,529527708.0,131469.0,R1,False,False,False
+270,charlene sorensen,2,46.0,2005,engineering,0.1,1,0,1,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+540,natalya yassinskaya,1,46.0,2010,unknown,0.0,0,0,0,woman,193531525.0,George Washington University,529527708.0,131469.0,R1,False,False,False
+544,megan shaw,1,46.0,2010,unknown,0.0,0,0,0,woman,193531525.0,George Washington University,529527708.0,131469.0,R1,False,False,False
+740,kim dam,1,46.0,2010,unknown,0.0,0,0,0,woman,193531525.0,George Washington University,529527708.0,131469.0,R1,False,False,False
+635,si hyun kim,1,0.0,2015,psychology,0.2875816993464052,1,0,0,man,164936912.0,University of Texas at El Paso,2689189567.0,228796.0,R1,True,True,False
+747,said alriyami,1,0.0,2015,psychology,0.4,1,0,0,man,164936912.0,University of Texas at El Paso,2689189567.0,228796.0,R1,True,True,False
+297,elizabeth niehaus,1,36.0,2015,psychology,0.3608870967741935,1,0,5,woman,114395901.0,University of Nebraska–Lincoln,3390882279.0,181464.0,R1,False,False,False
+40,corinne a mossracusin,1,108.0,2015,psychology,0.8983666061705989,34,1,4,woman,21104390.0,Skidmore College,1515029504.0,195526.0,carnegie,False,False,False
+468,elizabeth r brown,1,108.0,2015,psychology,0.5661375661375662,6,0,1,woman,11874761.0,University of North Florida,741569085.0,136172.0,R3,False,False,False
+549,ian m handley,5,160.0,2014,psychology,0.536036036036036,3,0,0,man,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+473,simy joy,1,184.0,2008,business,0.1761904761904762,0,0,0,unknown,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+668,daniel j poole,1,17.0,2015,mathematics,0.4666666666666667,1,0,0,man,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+289,alexander v zale,1,40.0,2015,biology,0.326517364492048,1,0,0,man,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+618,martha a potvin,1,40.0,2015,biology,0.6,1,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+692,cay andersonhanley,2,6.0,2012,psychology,0.4064171122994652,0,0,0,woman,177328695.0,Union College,1949533399.0,196866.0,carnegie,False,False,False
+330,jennifer karlin,2,1.0,2009,sociology,0.1526315789473684,1,0,0,woman,184647316.0,South Dakota School of Mines and Technology,2474269873.0,219347.0,carnegie,False,False,False
+867,andrea e surovek,3,1.0,2009,engineering,0.2935897435897436,1,0,0,woman,,,,,,,,
+55,laurel smithdoerr,2,22.0,2014,sociology,0.2575187969924812,12,1,5,woman,,,,,,,,
+469,deborah belle,1,9.0,2014,psychology,0.5497076023391813,6,0,0,woman,,,,,,,,
+940,lauren m obrien,1,9.0,2014,political science,0.0,0,0,0,woman,,,,,,,,
+35,matthew w ohland,1,1.0,2013,engineering,0.2184337639061919,7,4,13,man,,,,,,,,
+923,george d ricco,1,1.0,2013,engineering,0.1632183908045977,0,0,0,man,,,,,,,,
+441,dana m britton,2,19.0,2010,sociology,0.2367424242424242,14,2,3,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+597,linda a longmitchell,1,10.0,2009,sociology,0.0,1,1,1,woman,,,,,,,,
+278,michelle d deardorff,4,0.0,2013,political science,0.4453781512605042,5,2,4,woman,177097968.0,University of Tennessee at Chattanooga,2191710202.0,221740.0,R3,False,False,False
+661,lauren ketcham,1,9.0,2005,sociology,0.5,0,0,0,woman,10052268.0,New Mexico State University,1766726279.0,188030.0,R2,True,True,False
+752,cecily jesercannavale,1,9.0,2005,sociology,1.0,0,0,0,woman,10052268.0,New Mexico State University,1766726279.0,188030.0,R2,True,True,False
+92,sarah thebaud,2,40.0,2007,sociology,0.2019704433497537,19,0,2,woman,,,,,,,,
+245,marina kogan,4,5.0,2010,computer science,0.1661538461538461,3,0,0,woman,188538660.0,University of Colorado Boulder,3311607547.0,126614.0,R1,False,False,False
+709,tim archie,1,3.0,2015,psychology,0.1,0,0,0,man,188538660.0,University of Colorado Boulder,3311607547.0,126614.0,R1,False,False,False
+71,paula caligiuri,1,3.0,2016,psychology,0.2702485966319166,1,0,0,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+286,barbara j guthrie,2,3.0,2016,psychology,0.4042947056645686,18,6,5,woman,918370745.0,"College of Health Sciences, Bahrain",246217970.0,,other,False,False,False
+613,debra l franko,1,3.0,2016,psychology,1.0,0,0,0,woman,918370745.0,"College of Health Sciences, Bahrain",246217970.0,,other,False,False,False
+727,kathleen kenney,2,3.0,2016,political science,0.0,0,1,0,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+821,mary loeffelholz,1,3.0,2016,art,0.191025641025641,3,0,0,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+162,valerie martin conley,5,3.0,2010,political science,0.2045977011494253,4,0,0,woman,,,,,,,,
+230,david a koonce,5,3.0,2010,computer science,0.314516129032258,2,0,0,man,,,,,,,,
+528,christine mattley,3,1.0,2011,political science,0.3333333333333333,2,0,0,woman,,,,,,,,
+781,cynthia d anderson,6,3.0,2010,political science,0.2545454545454545,4,0,0,woman,,,,,,,,
+659,elizabeth neihaus,1,17.0,2016,psychology,0.0,0,0,0,woman,,,,,,,,
+697,jessica c bennett,1,17.0,2016,sociology,0.2,2,0,3,woman,,,,,,,,
+428,matthew odonnell,1,3.0,2017,unknown,0.2810790169926083,1,0,0,man,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+507,katie oleary,1,3.0,2017,psychology,0.2424242424242424,1,0,0,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+545,c greer jordan,1,0.0,2009,political science,0.0,0,0,0,unknown,58956616.0,Case Western Reserve University,3172241394.0,201645.0,R1,False,False,False
+70,delaram kahrobaei,1,0.0,2016,mathematics,0.4795016659423439,0,0,0,woman,76513827.0,New York City College of Technology,373948547.0,190655.0,carnegie,True,True,False
+569,pamela brown,1,0.0,2016,unknown,0.282051282051282,0,0,0,woman,76513827.0,New York City College of Technology,373948547.0,190655.0,carnegie,True,True,False
+981,lisa m dilks,2,22.0,2014,psychology,0.3333333333333333,2,0,0,woman,182273258.0,unknown,,,,,,
+130,s j yennello,2,0.0,2015,physics,0.769706005128511,4,0,0,woman,,,,,,,,
+892,christine kaunas,1,0.0,2015,political science,0.3333333333333333,1,0,0,woman,,,,,,,,
+303,maja husar holmes,1,9.0,2016,political science,0.1578947368421052,2,0,0,man,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+478,rachel stoiko,2,19.0,2016,psychology,0.3333333333333333,3,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+527,j kasi jackson,2,19.0,2016,sociology,0.1666666666666666,3,0,0,unknown,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+431,linda m manning,2,0.0,2015,sociology,0.1029411764705882,0,0,0,woman,153718931.0,University of Ottawa,3694599399.0,,other,False,False,False
+987,annebarrie hunter,1,1.0,2010,sociology,0.0,0,0,0,unknown,,,,,,,,
+579,elizabeth dell,6,1.0,2015,engineering,0.1403940886699507,0,1,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+137,andrea gebhart rommel,1,0.0,2015,psychology,0.0,0,0,0,woman,,,,,,,,
+274,anita g welch,1,3.0,2014,psychology,0.4199134199134199,0,0,0,woman,,,,,,,,
+355,mustafa cakir,1,3.0,2014,unknown,0.2204155374887082,0,0,0,man,,,,,,,,
+409,claudette m peterson,1,3.0,2014,psychology,0.4329004329004329,1,0,0,woman,,,,,,,,
+656,chris m ray,2,3.0,2014,psychology,0.4102564102564102,1,0,0,man,,,,,,,,
+212,jill j mccluskey,2,5.0,2016,economics,0.3501493909446104,1,0,1,woman,72951846.0,Washington State University,1133568255.0,236939.0,R1,False,False,False
+251,melissa latimer,7,73.0,2013,political science,0.1766666666666666,4,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+713,beth mitchneck,1,27.0,2016,economics,0.217391304347826,1,0,0,woman,138006243.0,University of Arizona,2711307440.0,104179.0,R1,False,False,False
+294,samuel t mcabee,1,12.0,2016,psychology,0.4901185770750988,0,0,0,man,180949307.0,Illinois Institute of Technology,3676755420.0,145725.0,R2,False,False,False
+496,john r rodgers,1,12.0,2016,biology,0.6413387607417458,0,0,0,man,181547552.0,Baylor College of Medicine,471687883.0,223223.0,carnegie,False,False,False
+517,susan s fleming,1,9.0,2016,sociology,0.1333333333333333,2,0,0,woman,,,,,,,,
+679,catherine j taylor,1,9.0,2016,psychology,0.3238095238095238,3,0,2,woman,,,,,,,,
+698,alyssa w goldman,1,9.0,2016,psychology,0.4233333333333333,0,1,2,woman,,,,,,,,
+283,shannon n davis,1,30.0,2016,psychology,0.2566158781074579,22,0,6,woman,162714631.0,George Mason University,62980493.0,232186.0,R1,False,False,False
+370,sarah winslow,1,30.0,2016,psychology,1.0,3,0,0,woman,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+269,margaret e beier,2,35.0,2009,psychology,0.6389172625127681,1,0,1,woman,,,,,,,,
+596,ashley d rittmayer,2,35.0,2009,psychology,0.0,0,0,0,woman,,,,,,,,
+523,dyah a hening,1,1.0,2011,political science,0.3333333333333333,0,0,0,woman,,,,,,,,
+603,james g dahl,1,0.0,2015,political science,0.2857142857142857,2,0,0,man,,,,,,,,
+805,e camargo,1,0.0,2014,economics,0.0,0,0,0,unknown,,,,,,,,
+41,barbara polnick,1,2.0,2014,psychology,0.1969696969696969,2,0,0,woman,,,,,,,,
+194,beverly j irby,1,2.0,2014,psychology,0.2551105856854342,14,1,3,woman,,,,,,,,
+420,janice koch,1,2.0,2014,sociology,0.1323529411764706,4,0,0,woman,,,,,,,,
+838,lisa christenson,1,2.0,2013,political science,0.0,1,0,0,woman,,,,,,,,
+840,rena linden,1,2.0,2013,political science,0.0,1,0,0,woman,,,,,,,,
+841,una bray,1,2.0,2013,political science,0.0,1,0,0,woman,,,,,,,,
+550,barbara e smith,2,2.0,2010,sociology,0.1,0,1,1,woman,,,,,,,,
+421,bradley j roth,1,0.0,2015,physics,0.202570281124498,0,0,0,man,,,,,,,,
+701,kathleen moore,1,0.0,2015,biology,0.0,0,0,0,woman,,,,,,,,
+619,leanne devreugd,1,0.0,2015,unknown,0.1666666666666666,0,0,0,woman,,,,,,,,
+696,julie walters,1,0.0,2015,unknown,0.0666666666666666,2,0,0,woman,,,,,,,,
+399,jo reger,1,0.0,2015,sociology,0.3511586452762923,18,2,3,woman,,,,,,,,
+171,laila guessous,1,0.0,2015,unknown,0.1322404371584699,0,0,0,woman,,,,,,,,
+338,nancy s mills,1,0.0,2010,engineering,0.0,0,0,0,woman,,,,,,,,
+699,julie t millard,2,0.0,2010,unknown,0.3671497584541063,1,0,0,woman,27504731.0,Colby College,2316145950.0,161086.0,carnegie,False,False,False
+97,marjorie darrah,3,10.0,2014,computer science,0.3129805517865219,0,0,0,woman,,,,,,,,
+839,barbara prince,1,8.0,2014,unknown,0.0,0,0,0,woman,,,,,,,,
+655,d valentine,1,0.0,2010,engineering,0.0,1,0,0,unknown,,,,,,,,
+775,g a arbucklekeil,1,0.0,2010,engineering,0.0,1,0,0,unknown,,,,,,,,
+770,youngmin yi,1,4.0,2013,psychology,0.175,0,0,4,unknown,,,,,,,,
+577,cynthia hess,1,4.0,2013,political science,0.1666666666666666,0,0,2,woman,,,,,,,,
+645,barbara gault,1,4.0,2013,political science,0.3382352941176471,0,0,7,woman,,,,,,,,
+73,virginia valian,3,62.0,2007,psychology,0.5146853146853146,10,0,4,woman,39694355.0,Hunter College,818385055.0,190594.0,carnegie,True,True,False
+633,kasi jackson,1,13.0,2014,political science,0.0,1,0,0,woman,,,,,,,,
+819,jim nolan,1,13.0,2014,political science,1.0,1,0,0,man,,,,,,,,
+186,elizabeth borland,3,2.0,2012,sociology,0.3619047619047619,6,0,1,woman,64281891.0,The College of New Jersey,3223099627.0,187134.0,carnegie,False,False,False
+240,diane c bates,3,2.0,2012,sociology,0.1212121212121212,2,0,0,woman,64281891.0,The College of New Jersey,3223099627.0,187134.0,carnegie,False,False,False
+108,berrin tansel,1,0.0,2014,unknown,0.2214550247944259,1,0,0,woman,,,,,,,,
+185,penny j gilmer,1,0.0,2014,sociology,0.1240310077519379,7,0,0,woman,,,,,,,,
+649,michelle hughes miller,1,0.0,2014,psychology,0.0,0,0,0,woman,,,,,,,,
+650,erin l cadwalader,2,4.0,2014,political science,1.0,2,0,0,woman,86484424.0,Association for Women in Science,1696911125.0,,other,False,False,False
+852,amanda c bryantfriedrich,1,0.0,2014,unknown,0.6140350877192983,1,1,0,woman,86484424.0,Association for Women in Science,1696911125.0,,other,False,False,False
+637,donna sollie,2,1.0,2010,psychology,0.6160919540229886,7,1,0,woman,,,,,,,,
+285,alice e smith,2,1.0,2010,computer science,0.3993782722513089,1,0,0,woman,,,,,,,,
+296,daydrie hague,2,1.0,2010,psychology,0.0,0,0,0,unknown,,,,,,,,
+799,overtoun jenda,2,1.0,2010,sociology,0.0,0,0,0,man,,,,,,,,
+806,toni alexander,2,1.0,2010,psychology,0.0,0,0,0,woman,,,,,,,,
+396,marie wooten,2,1.0,2010,biology,0.6463223787167449,0,0,0,woman,,,,,,,,
+34,daniel svyantek,1,1.0,2011,psychology,0.2732732732732733,1,0,0,man,,,,,,,,
+211,a e wendt,1,13.0,2014,unknown,0.3680143755615453,1,0,0,woman,,,,,,,,
+627,julia n savoy,1,13.0,2014,psychology,0.1666666666666666,0,0,1,woman,,,,,,,,
+626,jill granger,1,0.0,2010,sociology,0.0,0,0,0,woman,,,,,,,,
+630,ruth beeston,1,0.0,2010,sociology,0.0,0,0,0,woman,,,,,,,,
+639,darlene loprete,1,0.0,2010,sociology,0.0,0,0,0,woman,,,,,,,,
+640,leslie lyons,1,0.0,2010,sociology,0.0,0,0,0,woman,,,,,,,,
+556,carol ann miderski,2,0.0,2010,computer science,0.0,0,0,0,woman,35711545.0,unknown,,,,,,
+117,amy lubitow,1,4.0,2014,sociology,0.1693548387096774,10,0,3,woman,,,,,,,,
+644,susan walzer,1,1.0,2014,political science,0.0,0,0,0,woman,,,,,,,,
+628,daniel j svyantec,1,0.0,2010,psychology,0.0,0,0,0,man,,,,,,,,
+652,victoria r brown,1,0.0,2010,psychology,0.0,0,0,0,woman,,,,,,,,
+492,kuheli dutt,1,24.0,2015,sociology,0.1071428571428571,2,0,3,unknown,,,,,,,,
+414,kristin m fox,1,2.0,2010,unknown,0.3191919191919192,1,0,0,woman,,,,,,,,
+495,brenda johnson,1,2.0,2010,mathematics,0.92,0,0,0,woman,,,,,,,,
+759,kimberley frederick,1,2.0,2010,political science,0.0,0,0,0,woman,,,,,,,,
+634,mychel estevez,1,4.0,2014,sociology,0.0,0,0,0,man,,,,,,,,
+45,mary deane sorcinelli,1,1.0,2016,psychology,0.354978354978355,1,0,1,man,24603500.0,University of Massachusetts Amherst,841928199.0,166629.0,R1,False,False,False
+225,sara wadiafascetti,2,1.0,2014,engineering,0.3371212121212121,0,0,0,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+632,jeni hart,1,36.0,2016,sociology,0.3078817733990148,11,0,2,woman,,,,,,,,
+74,roberta spalterroth,1,0.0,2016,sociology,0.264069264069264,3,0,4,woman,1297026177.0,unknown,,,,,,
+643,angela mae kupenda,2,0.0,2014,sociology,0.1388888888888889,2,3,2,woman,,,,,,,,
+671,evelyn j leggette,2,0.0,2014,sociology,0.3333333333333333,1,3,0,woman,,,,,,,,
+611,loretta a moore,3,1.0,2014,sociology,0.3333333333333333,1,4,0,woman,,,,,,,,
+471,edgar fuller,1,0.0,2016,computer science,0.294452347083926,0,0,0,man,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+147,karen a froelich,3,4.0,2010,political science,0.2121212121212121,2,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+654,mushtaq abdal rahem,1,2.0,2016,mathematics,0.3333333333333333,0,0,0,man,,,,,,,,
+65,m claire hornerdevine,2,7.0,2016,biology,0.4848484848484848,1,0,1,unknown,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+113,samantha e forde,1,6.0,2016,biology,0.9047619047619048,1,0,0,woman,185103710.0,"University of California, Santa Cruz",847185681.0,110714.0,R1,True,True,False
+667,priti n modypan,1,6.0,2016,sociology,0.0555555555555555,0,0,0,woman,,,,,,,,
+850,cara margherio,4,11.0,2016,sociology,0.1992753623188405,4,0,1,woman,201448701.0,University of Washington,3040312343.0,236948.0,R1,False,False,False
+207,mindy k shoss,1,37.0,2018,psychology,0.6709183673469388,0,0,0,woman,106165777.0,University of Central Florida,3917117872.0,132903.0,R1,False,False,False
+681,demarco moderator devon a,1,0.0,2013,political science,0.0,0,0,0,man,,,,,,,,
+682,jennifer moxley,1,0.0,2013,political science,0.0,0,0,0,woman,,,,,,,,
+685,john kidder,1,0.0,2013,political science,0.0,0,0,0,man,,,,,,,,
+686,mike kinnison,1,0.0,2013,political science,0.0,0,0,0,man,,,,,,,,
+976,karen horton,3,0.0,2012,political science,0.3333333333333333,1,0,0,woman,,,,,,,,
+990,michael wittmann,1,0.0,2013,political science,0.0,0,0,0,man,,,,,,,,
+184,elizabeth debartolo,1,3.0,2011,engineering,0.3618538324420677,0,0,0,woman,,,,,,,,
+739,gina m williams,1,3.0,2011,engineering,0.0,0,0,0,woman,,,,,,,,
+151,jacqueline r mozrall,1,3.0,2011,engineering,0.2087912087912088,0,0,0,woman,,,,,,,,
+823,steven lalonde,1,3.0,2011,engineering,0.0,0,0,0,man,,,,,,,,
+684,beth wiemann,1,0.0,2011,political science,0.0,0,0,0,woman,,,,,,,,
+687,john rebar,1,0.0,2011,political science,0.0,0,0,0,man,,,,,,,,
+690,sulinski moderator francine,1,0.0,2011,political science,0.0,0,0,0,man,,,,,,,,
+174,eleanor groden,1,0.0,2011,biology,0.8909853249475891,1,0,0,woman,,,,,,,,
+454,amy fried,2,0.0,2011,political science,0.8888888888888888,1,0,1,woman,,,,,,,,
+815,dorothy klimiszacas,1,0.0,2011,political science,0.0,0,0,0,woman,,,,,,,,
+247,laura e rogers,1,10.0,2018,psychology,0.4666666666666667,4,0,0,woman,36258959.0,"University of California, San Diego",923795525.0,110680.0,R1,False,False,False
+572,renetta g tull,3,3.0,2015,political science,0.1711711711711711,2,4,7,man,79272384.0,"University of Maryland, Baltimore County",3664893609.0,163268.0,R2,True,False,False
+663,frances carterjohnson,1,1.0,2016,political science,0.3,0,0,0,woman,1311060795.0,National Science Foundation,76703633.0,,other,False,False,False
+138,carlos padin,1,1.0,2016,unknown,0.0,0,0,0,man,,,,,,,,
+229,beatriz zayas,1,1.0,2016,unknown,0.3333333333333333,0,1,0,woman,,,,,,,,
+459,kimberly fox,1,0.0,2016,psychology,0.2,1,0,0,woman,,,,,,,,
+588,m b arndt,1,0.0,2016,physics,0.3680241327300151,0,0,0,woman,,,,,,,,
+623,michael young,1,0.0,2016,psychology,0.0,0,0,0,man,,,,,,,,
+362,laura ramsey,1,0.0,2016,psychology,0.6704545454545454,14,0,1,woman,,,,,,,,
+526,pamela russell dr,1,0.0,2016,medicine,0.3206776836550479,1,0,0,woman,,,,,,,,
+719,karen elizabeth clark,1,0.0,2012,engineering,0.0,0,0,0,woman,,,,,,,,
+777,karen chang yan,1,0.0,2012,engineering,0.0,0,0,0,man,,,,,,,,
+256,lisa grega,1,0.0,2012,physics,0.1388888888888889,0,0,0,woman,,,,,,,,
+804,suriza vandersandt,1,0.0,2012,engineering,0.0,0,0,0,unknown,,,,,,,,
+812,amanda norvell,1,0.0,2012,engineering,0.0,0,0,0,woman,,,,,,,,
+708,mercedes riverhudec,1,1.0,2006,political science,0.0,0,0,0,woman,,,,,,,,
+181,karen wishner,1,1.0,2006,biology,0.2855218855218855,0,0,0,woman,,,,,,,,
+546,lynn pasquerella,1,1.0,2006,medicine,0.0955882352941176,0,0,1,woman,,,,,,,,
+794,g boudreauxbartels,1,1.0,2006,political science,0.0,0,0,0,unknown,,,,,,,,
+586,alexandra kuvaeva,4,34.0,2017,psychology,0.3636363636363636,0,0,1,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+587,kristen corrigan,1,11.0,2017,psychology,1.0,0,0,0,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+622,mark rivera,1,11.0,2017,psychology,1.0,1,0,1,man,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+842,john fink,1,1.0,2017,political science,0.2353535353535353,0,0,4,man,78577930.0,Columbia University,2128007522.0,190150.0,R1,False,False,False
+880,damani whitelewis,1,1.0,2017,psychology,0.2,0,1,1,unknown,161318765.0,"University of California, Los Angeles",3661788253.0,110662.0,R1,False,False,False
+53,jennifer normanly,1,13.0,2017,biology,0.6515151515151515,0,0,0,woman,,,,,,,,
+415,nilanjana dasgupta,2,15.0,2017,psychology,0.6585255540479421,12,0,6,woman,,,,,,,,
+342,gabriela weaver,1,13.0,2017,unknown,0.3333333333333333,0,0,0,woman,,,,,,,,
+608,jana renner martinez,1,2.0,2006,sociology,0.0,0,0,0,woman,164936912.0,University of Texas at El Paso,2689189567.0,228796.0,R1,True,True,False
+716,evelyn posey,1,2.0,2006,psychology,0.0476190476190476,0,0,0,woman,,,,,,,,
+47,mary r andersonrowland,1,0.0,2006,engineering,0.2947484798231067,1,0,22,woman,55732556.0,Arizona State University,717246557.0,104151.0,R1,False,False,False
+213,joann s lighty,2,1.0,2005,unknown,0.2799422799422799,0,0,0,woman,223532165.0,University of Utah,1462150925.0,230764.0,R1,False,False,False
+440,judy m vance,3,1.0,2005,engineering,0.445050505050505,0,0,1,woman,173911158.0,Iowa State University,4075009238.0,153603.0,R1,False,False,False
+712,betsy homsher,1,0.0,2006,engineering,1.0,0,0,0,woman,39965400.0,Kettering University,1625321239.0,169983.0,carnegie,False,False,False
+717,judy raper,1,0.0,2006,engineering,0.0,0,0,0,woman,76835614.0,University of Missouri,270528848.0,178396.0,R1,False,False,False
+715,t bhatia,1,0.0,2004,engineering,0.0,0,0,0,unknown,,,,,,,,
+21,jeffrey e froyd,2,8.0,2017,engineering,0.2940092165898617,0,0,0,man,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+486,lori l taylor,2,8.0,2017,economics,0.3936531007751938,1,0,0,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+593,joanna n lahey,2,8.0,2017,economics,0.1632728619029989,2,4,7,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+898,molly i beck,2,8.0,2017,psychology,0.4615384615384615,0,0,0,woman,78715868.0,University of Arkansas,3547531277.0,106397.0,R1,False,False,False
+714,r kelly,1,0.0,2005,engineering,0.0,0,0,0,unknown,,,,,,,,
+202,stephanie farrell,1,0.0,2016,engineering,0.2542167551952288,3,0,1,woman,44265643.0,Rowan University,3341736432.0,184782.0,R2,False,False,False
+662,tom waidzunas,1,0.0,2016,sociology,0.25,2,0,0,man,84392919.0,Temple University,2916153862.0,216339.0,R1,False,False,False
+680,wendy a dannels,2,1.0,2016,psychology,0.1666666666666666,1,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+216,curt doetkott,1,2.0,2017,biology,0.3640816326530612,1,0,0,man,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+723,li cao,1,2.0,2017,psychology,0.0,1,0,0,woman,,,,,,,,
+552,sean joseph creighton,2,3.0,2013,engineering,0.3333333333333333,0,0,0,man,,,,,,,,
+720,maggie varga,2,3.0,2013,political science,0.3333333333333333,0,0,0,woman,,,,,,,,
+722,diana lynn cahill,2,3.0,2013,political science,0.3333333333333333,0,0,0,woman,,,,,,,,
+827,jeremy paul stringer,1,0.0,2016,engineering,0.0,0,0,0,man,,,,,,,,
+768,chatanika stoop,2,4.0,2014,engineering,0.0,1,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+277,quincy brown,1,1.0,2015,computer science,0.3522727272727273,3,2,1,man,,,,,,,,
+725,yarazeth medina,1,1.0,2015,political science,0.6,0,0,2,unknown,,,,,,,,
+792,lourdes a medina,1,1.0,2015,political science,0.0,0,0,0,woman,,,,,,,,
+793,michelle beadle holder,1,1.0,2015,computer science,0.0,0,0,0,woman,,,,,,,,
+238,erika v hall,1,17.0,2016,psychology,0.4264705882352941,6,3,7,woman,,,,,,,,
+385,katherine w phillips,1,17.0,2016,psychology,0.4493284493284493,12,8,16,woman,,,,,,,,
+829,simon pitts,1,0.0,2014,political science,0.0,0,0,0,man,,,,,,,,
+664,maria nandadevi cortesrodriguez,1,1.0,2015,political science,1.0,0,0,0,woman,,,,,,,,
+710,sarah morton,2,2.0,2018,sociology,0.2,0,0,0,woman,72951846.0,Washington State University,1133568255.0,236939.0,R1,False,False,False
+204,beth a montelone,6,3.0,2005,biology,0.2301587301587301,1,0,1,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+250,chardie l baird,1,0.0,2011,psychology,0.3602941176470588,7,0,4,unknown,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+394,jan middendorf,1,0.0,2011,computer science,0.0,0,0,0,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+465,christa smith,1,0.0,2011,computer science,0.1666666666666666,0,0,1,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+625,ruth a dyer,6,3.0,2005,mathematics,0.0952380952380952,1,0,1,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+530,lisa defrankcole,2,10.0,2013,political science,0.1333333333333333,1,0,0,woman,,,,,,,,
+746,sandra holbrook,1,2.0,2017,political science,0.5,1,0,0,woman,57328836.0,North Dakota State University,2340947716.0,200332.0,R2,False,False,False
+96,mary e rezac,1,0.0,2006,unknown,0.5074334898278561,0,0,0,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+261,terry s king,1,0.0,2006,unknown,0.8029556650246306,0,0,0,man,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+20,rebecca richardskortum,1,0.0,2008,medicine,0.2661467346213109,3,0,2,woman,,,,,,,,
+834,sherry woods,1,0.0,2008,political science,1.0,0,0,0,woman,,,,,,,,
+767,elizabeth birmingham,4,1.0,2010,political science,0.1666666666666666,2,0,0,woman,,,,,,,,
+750,kathy sukalski,1,1.0,2011,sociology,0.0,0,0,0,woman,24571045.0,University of North Dakota,3725107953.0,200280.0,R2,False,False,False
+631,j p carpenter,3,0.0,2011,unknown,0.1474926253687315,6,1,2,woman,,,,,,,,
+824,d patrick oneal,1,0.0,2011,computer science,0.0,0,0,0,unknown,,,,,,,,
+331,tuere bowles,1,1.0,2010,sociology,0.2333333333333333,2,1,4,unknown,,,,,,,,
+419,pamela p martin,1,1.0,2010,psychology,0.2794117647058823,1,0,9,woman,,,,,,,,
+463,eric j carpenter,1,1.0,2010,biology,0.3647959183673469,0,0,1,man,,,,,,,,
+748,sue guenterschlesinger,1,0.0,2012,political science,0.0,0,0,0,woman,,,,,,,,
+232,kathleen l kitto,1,0.0,2012,engineering,0.289198606271777,0,0,1,woman,,,,,,,,
+146,peggy layne,9,0.0,2005,engineering,0.1753846153846154,2,0,1,woman,859038795.0,Virginia Tech,2324274490.0,233921.0,R1,False,False,False
+563,leigh harrell,1,0.0,2011,computer science,0.0,0,0,0,woman,859038795.0,Virginia Tech,2324274490.0,233921.0,R1,False,False,False
+783,beatriz hernandez,1,0.0,2007,unknown,0.0,0,0,0,woman,23968078.0,University of Puerto Rico at Humacao,680176345.0,243179.0,carnegie,True,True,False
+836,edwin diaz,1,0.0,2007,unknown,1.0,0,0,0,man,23968078.0,University of Puerto Rico at Humacao,680176345.0,243179.0,carnegie,True,True,False
+490,lisa aultmanhall,1,0.0,2006,engineering,0.3240316258055943,1,0,0,woman,,,,,,,,
+735,britt a holmen,1,0.0,2006,unknown,0.2411873840445269,1,0,0,woman,,,,,,,,
+952,jessica drennan,1,3.0,2013,political science,0.0,0,0,0,woman,,,,,,,,
+6,janis p terpenny,1,2.0,2009,engineering,0.4161709258483452,0,0,1,woman,,,,,,,,
+346,ane turner johnson,1,2.0,2009,sociology,0.2645803698435277,7,1,0,woman,,,,,,,,
+751,cassandra groen,1,1.0,2010,sociology,0.0,0,0,0,woman,,,,,,,,
+604,suzanne held,1,4.0,2017,psychology,0.3076923076923077,1,0,1,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+765,rebecca m belou,3,16.0,2017,psychology,0.1,2,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+831,michaela young,1,4.0,2017,psychology,0.0,1,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+310,bonnie r rush,1,0.0,2007,medicine,0.6450549450549451,0,0,0,woman,189590672.0,Kansas State University,1679301981.0,155399.0,R1,False,False,False
+809,mary madden,1,0.0,2013,political science,0.2857142857142857,4,0,0,woman,,,,,,,,
+94,miles hewstone,1,102.0,2017,psychology,0.5898096627387951,29,0,40,man,40120149.0,University of Oxford,1264081333.0,,other,False,False,False
+398,john f dovidio,3,131.0,2017,psychology,0.6095159895528516,56,4,98,man,32971472.0,Yale University,1421279711.0,130794.0,R1,False,False,False
+753,fabian m h schellhaas,1,102.0,2017,psychology,0.8333333333333334,0,0,1,man,32971472.0,Yale University,1421279711.0,130794.0,R1,False,False,False
+901,angelika love,1,102.0,2017,psychology,0.6,0,0,0,woman,40120149.0,University of Oxford,1264081333.0,,other,False,False,False
+210,catherine c eckel,1,3.0,2005,economics,0.277003984063745,2,0,1,woman,,,,,,,,
+766,patricia hyer,2,3.0,2005,unknown,0.0,1,0,0,woman,,,,,,,,
+48,sophie trawalter,2,3.0,2019,psychology,0.6130612244897959,3,4,27,woman,51556381.0,University of Virginia,2123654681.0,234076.0,R1,False,False,False
+89,james n druckman,1,1.0,2019,political science,0.3802389705882353,6,0,8,man,111979921.0,Northwestern University,1089840204.0,147767.0,R1,False,False,False
+732,ivonne montes,1,1.0,2019,political science,0.5,1,0,2,woman,111979921.0,Northwestern University,1089840204.0,147767.0,R1,False,False,False
+935,mary feng,1,0.0,2005,engineering,0.0,0,0,0,woman,,,,,,,,
+936,hailey christine,1,0.0,2005,engineering,0.0,0,0,0,woman,,,,,,,,
+937,ryan dupont,1,0.0,2005,engineering,0.0,0,0,0,man,,,,,,,,
+51,marcia l gumpertz,1,0.0,2012,mathematics,0.1521604938271605,1,0,3,woman,,,,,,,,
+844,gregory alan good,1,0.0,2017,engineering,0.0,1,0,0,man,,,,,,,,
+845,samantha laurel swanson,1,0.0,2017,engineering,0.0,1,0,0,woman,,,,,,,,
+846,maryann c hellrigel,1,0.0,2017,engineering,0.0,1,0,0,woman,,,,,,,,
+847,caroline missouri wochnick,1,0.0,2017,engineering,0.0,1,0,0,man,,,,,,,,
+848,hannah bech,1,0.0,2017,engineering,0.0,1,0,0,woman,,,,,,,,
+849,amanda marie kapetanakis,1,0.0,2017,engineering,0.0,1,0,0,woman,,,,,,,,
+541,billy williams,2,14.0,2017,engineering,0.1672449687716863,1,0,0,man,160664669.0,American Geophysical Union,4031135368.0,,other,False,False,False
+178,monica c skewes,2,12.0,2017,psychology,0.4164904862579281,4,0,1,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+377,elizabeth a shanahan,2,12.0,2017,political science,0.232051282051282,0,0,1,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+738,joy honea,2,12.0,2017,psychology,0.1904761904761904,0,0,0,woman,193198326.0,Montana State University Billings,2298499133.0,180179.0,carnegie,False,False,False
+929,kristen intemann,2,12.0,2017,political science,0.2236559139784946,8,1,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+249,christina d weber,1,0.0,2015,sociology,0.1666666666666666,1,0,0,woman,,,,,,,,
+480,karinna m vernaza,1,0.0,2016,engineering,0.25,0,0,0,woman,,,,,,,,
+522,lori d lindley,1,0.0,2016,psychology,0.6691176470588235,2,0,0,woman,,,,,,,,
+642,theresa m vitolo,1,0.0,2016,computer science,0.3285714285714285,0,0,0,woman,,,,,,,,
+145,elisa m konieczko,1,0.0,2016,medicine,0.25,0,0,0,woman,,,,,,,,
+803,weslene tallmadge,1,0.0,2016,political science,0.0,0,0,0,woman,,,,,,,,
+591,tonya saddler,1,1.0,2008,political science,0.1904761904761904,0,0,0,woman,,,,,,,,
+80,patricia drentea,1,0.0,2017,psychology,0.3975510204081632,3,0,3,woman,,,,,,,,
+853,sarah ballard,1,0.0,2017,psychology,0.0,1,0,0,woman,,,,,,,,
+447,kristine j olson,1,1.0,2017,psychology,0.5454545454545454,3,0,0,woman,218822139.0,Dixie State University,1702059199.0,230171.0,carnegie,False,False,False
+862,lexie kambich,1,7.0,2017,psychology,0.0,0,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+121,cynthia burack,1,1.0,2006,sociology,0.3768939393939394,14,0,1,woman,52357470.0,Ohio State University,297975.0,204796.0,R1,False,False,False
+599,suzanne e franks,1,1.0,2006,sociology,0.1636363636363636,3,0,0,woman,,,,,,,,
+24,martijn van zomeren,1,5.0,2018,psychology,0.5034013605442177,3,1,4,man,,,,,,,,
+349,rebecca l warner,2,9.0,2018,political science,0.2037037037037037,5,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+357,michelle kay bothwell,3,9.0,2018,sociology,0.2832512315270936,5,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+555,dwaine plaza,2,9.0,2018,sociology,0.2287581699346405,8,0,4,man,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+863,bonnie ruder,2,9.0,2018,medicine,0.2,1,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+140,christiane spitzmueller,5,20.0,2018,psychology,0.5168439716312057,0,0,1,woman,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+510,candice l thomas,3,13.0,2018,psychology,0.9047619047619048,1,0,0,woman,47838141.0,Saint Louis University,1279622537.0,179159.0,R2,False,False,False
+741,jia yu,2,10.0,2018,psychology,0.7142857142857143,0,0,1,unknown,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+873,stephen netzley,1,3.0,2018,psychology,0.0,0,0,0,man,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+874,folasade olufemiayoola,1,3.0,2018,sociology,0.0,1,0,0,woman,64032852.0,Pan-Atlantic University,2765377868.0,,other,False,False,False
+875,emem laguda,1,3.0,2018,psychology,0.0,0,0,0,woman,64032852.0,Pan-Atlantic University,2765377868.0,,other,False,False,False
+872,andi stepnick,1,22.0,2014,sociology,0.0,1,0,0,man,,,,,,,,
+439,russell a matthews,2,7.0,2018,psychology,0.6989948862634456,0,0,0,man,17301866.0,University of Alabama,682842409.0,100751.0,R1,False,False,False
+728,theresa p atkinson,1,4.0,2018,psychology,0.5,0,0,0,woman,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+764,alexandra a henderson,1,4.0,2018,psychology,0.4666666666666667,0,0,0,woman,91044093.0,Zayed University,3959022706.0,,other,False,False,False
+566,dandan chen,1,0.0,2017,psychology,0.696969696969697,0,0,0,man,,,,,,,,
+878,heather walling doty,3,0.0,2017,engineering,0.0,1,0,0,woman,,,,,,,,
+329,robin andreasen,4,10.0,2017,sociology,0.0952380952380952,1,0,2,man,86501945.0,University of Delaware,2223053423.0,130943.0,R1,False,False,False
+879,latecia m abrahamhilaire,1,4.0,2018,psychology,0.0,1,0,0,unknown,,,,,,,,
+760,cristina m lopez,1,4.0,2018,psychology,0.4651162790697674,4,1,4,woman,,,,,,,,
+100,carol feghalibostwick,3,5.0,2018,medicine,0.3979933110367893,3,0,0,woman,153297377.0,Medical University of South Carolina,1421804932.0,218335.0,carnegie,False,False,False
+881,eric e griffith,1,2.0,2018,unknown,0.0,1,0,0,man,,,,,,,,
+3,erika marinspiotta,6,33.0,2010,unknown,0.291441870305723,3,1,2,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+911,lindsey templeton,1,0.0,2018,psychology,0.1666666666666666,1,0,1,woman,,,,,,,,
+323,l pamela cook,1,0.0,2017,unknown,0.2816326530612245,0,0,0,unknown,,,,,,,,
+164,lane strathearn,1,3.0,2018,psychology,0.4655996177735308,20,0,0,man,126307644.0,University of Iowa,1295795697.0,153658.0,R1,False,False,False
+339,gwenith g fisher,1,3.0,2018,psychology,0.4039836567926455,3,0,0,woman,92446798.0,Colorado State University,3874051008.0,126818.0,R1,False,False,False
+402,zhuxi wang,1,3.0,2018,psychology,1.0,0,0,0,unknown,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+560,jing zhang,2,10.0,2018,psychology,0.8571428571428571,0,0,0,woman,43369023.0,"California State University, San Bernardino",2354014071.0,110510.0,carnegie,True,True,False
+103,julia e fulghum,1,0.0,2018,unknown,0.3430127041742287,0,0,0,woman,169521973.0,University of New Mexico,1675328267.0,187985.0,R1,True,True,False
+843,brittany ortiz,2,0.0,2017,sociology,0.2857142857142857,0,0,2,woman,169521973.0,University of New Mexico,1675328267.0,187985.0,R1,True,True,False
+882,kate nash cunningham,1,0.0,2018,sociology,0.0,0,0,0,man,169521973.0,University of New Mexico,1675328267.0,187985.0,R1,True,True,False
+287,stacy blakebeard,1,0.0,2018,sociology,0.3525641025641026,10,5,5,woman,,,,,,,,
+927,shawna vican,4,10.0,2018,sociology,0.3333333333333333,1,2,0,woman,86501945.0,University of Delaware,2223053423.0,130943.0,R1,False,False,False
+886,rania sanford,1,0.0,2018,political science,0.0,0,1,0,woman,,,,,,,,
+888,michele c deramo,1,0.0,2018,political science,0.0,0,1,0,woman,,,,,,,,
+891,nicole n aljoe,1,0.0,2018,political science,0.0,0,1,0,woman,,,,,,,,
+241,julie simmons ivy,2,2.0,2018,medicine,0.2843822843822843,1,1,1,woman,,,,,,,,
+889,saejin kwak tanguay,2,2.0,2018,sociology,0.3333333333333333,1,1,0,unknown,,,,,,,,
+887,hong zhang,2,1.0,2018,psychology,1.0,0,0,0,unknown,157773358.0,Sun Yat-sen University,2683900587.0,,other,False,False,False
+742,joseph mcguire,1,0.0,2018,unknown,0.6138975966562173,0,0,0,man,,,,,,,,
+883,thuy t tran,1,0.0,2018,political science,0.0,0,0,0,woman,,,,,,,,
+885,padma akkaraju,1,0.0,2018,political science,0.0,0,0,0,woman,,,,,,,,
+890,andrea zigler,1,0.0,2018,political science,0.0,0,0,0,woman,,,,,,,,
+27,michael sukyoung chwe,1,9.0,2018,economics,0.2294372294372294,1,0,0,man,161318765.0,"University of California, Los Angeles",3661788253.0,110662.0,R1,False,False,False
+81,francesca r jensenius,1,9.0,2018,political science,0.5953654188948306,6,1,1,woman,1289895318.0,Norwegian Institute of International Affairs,3741065778.0,,other,False,False,False
+132,david j samuels,2,10.0,2018,political science,0.4271241830065359,5,0,2,man,130238516.0,University of Minnesota,1853563168.0,174066.0,R1,False,False,False
+134,mala htun,4,12.0,2017,political science,0.4680080482897384,29,1,5,woman,169521973.0,University of New Mexico,1675328267.0,187985.0,R1,True,True,False
+400,adria lawrence,1,9.0,2018,political science,0.7017543859649122,0,0,0,woman,145311948.0,Johns Hopkins University,2362892431.0,162928.0,R1,False,False,False
+553,david andrew singer,1,9.0,2018,economics,0.4597560975609756,0,0,0,man,63966007.0,Massachusetts Institute of Technology,1770160405.0,166683.0,R1,False,False,False
+602,kaitlin t mccormick,1,3.0,2018,psychology,0.5,2,1,0,woman,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+617,elaine c dicicco,1,3.0,2018,psychology,1.0,4,1,0,woman,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+18,ellen m broido,1,19.0,2019,sociology,0.3712121212121212,14,0,1,woman,157417397.0,Bowling Green State University,697395832.0,201441.0,R2,False,False,False
+87,lisa k hanasono,1,19.0,2019,psychology,0.5714285714285714,2,0,3,woman,82951845.0,RMIT University,3944932402.0,,other,False,False,False
+318,susana pena,1,19.0,2019,sociology,0.2666666666666666,6,0,0,woman,157417397.0,Bowling Green State University,697395832.0,201441.0,R2,False,False,False
+320,karen v root,1,19.0,2019,biology,0.3619047619047619,1,0,0,woman,157417397.0,Bowling Green State University,697395832.0,201441.0,R2,False,False,False
+389,margaret m yacobucci,1,19.0,2019,biology,0.2878787878787879,1,0,0,woman,157417397.0,Bowling Green State University,697395832.0,201441.0,R2,False,False,False
+754,deborah a oneil,1,19.0,2019,psychology,0.4554621848739495,5,0,0,woman,157417397.0,Bowling Green State University,697395832.0,201441.0,R2,False,False,False
+896,y anthony elizabeth,1,0.0,2004,political science,0.0,0,0,0,unknown,,,,,,,,
+228,marcy h towns,1,27.0,2010,unknown,0.1630568959712714,2,1,0,woman,,,,,,,,
+980,mattheis a,1,1.0,2018,mathematics,0.0,0,0,0,unknown,27825529.0,"California State University, Los Angeles",3245209959.0,110592.0,carnegie,True,True,False
+30,thomas j zagenczyk,1,4.0,2018,psychology,0.5283018867924528,0,0,0,man,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+123,debbie laverie,1,4.0,2018,business,0.1904761904761904,0,0,0,woman,12315562.0,Texas Tech University,2294551921.0,229115.0,R1,False,False,False
+368,william l gardner,1,4.0,2018,psychology,0.4653500264503615,3,0,0,man,12315562.0,Texas Tech University,2294551921.0,229115.0,R1,False,False,False
+511,kristin l scott,1,4.0,2018,psychology,0.7807486631016043,0,0,0,woman,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+703,claudia c cogliser,1,4.0,2018,psychology,0.3321718931475029,0,0,0,woman,12315562.0,Texas Tech University,2294551921.0,229115.0,R1,False,False,False
+857,siyuan li,1,4.0,2018,business,0.0,0,0,0,unknown,16285277.0,College of William & Mary,3028721488.0,231624.0,R2,False,False,False
+578,myra marx ferree,1,9.0,2019,sociology,0.3320926385442515,83,13,4,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+8,ashli j sheidow,1,1.0,2018,psychology,0.4710701484895033,5,0,0,woman,153297377.0,Medical University of South Carolina,1421804932.0,218335.0,carnegie,False,False,False
+300,tamara k nowling,1,1.0,2018,biology,0.35650623885918,1,0,0,woman,153297377.0,Medical University of South Carolina,1421804932.0,218335.0,carnegie,False,False,False
+252,erin a mcclure,1,1.0,2018,medicine,0.5024691358024691,3,0,0,woman,153297377.0,Medical University of South Carolina,1421804932.0,218335.0,carnegie,False,False,False
+374,annie n simpson,1,1.0,2018,medicine,0.6759238521836506,2,0,0,woman,153297377.0,Medical University of South Carolina,1421804932.0,218335.0,carnegie,False,False,False
+950,darlene shaw,1,1.0,2018,medicine,0.0,1,0,0,woman,153297377.0,Medical University of South Carolina,1421804932.0,218335.0,carnegie,False,False,False
+902,lauren hawthorne,1,0.0,2018,psychology,0.0,0,0,0,woman,114250311.0,Rockhurst University,2375959780.0,179043.0,carnegie,False,False,False
+904,kathleen oconnell,1,0.0,2006,unknown,0.0,0,0,0,woman,,,,,,,,
+291,john m carey,1,0.0,2017,political science,0.3926605504587156,2,0,7,man,107672454.0,Dartmouth College,3890521425.0,182670.0,R1,False,False,False
+337,kevin r carman,1,0.0,2017,biology,0.3337995337995338,0,0,2,man,134113660.0,"University of Nevada, Reno",3152150775.0,182290.0,R1,False,False,False
+352,yusaku horiuchi,2,1.0,2017,political science,0.3355913832813982,4,0,7,man,107672454.0,Dartmouth College,3890521425.0,182670.0,R1,False,False,False
+743,katherine clayton,1,0.0,2017,political science,0.2473684210526315,1,0,4,woman,97018004.0,Stanford University,1085861517.0,243744.0,R1,False,False,False
+905,james c e onyeneke,1,0.0,2018,psychology,0.0,0,0,1,man,,,,,,,,
+906,beth a johnson,1,2.0,2018,unknown,0.0,0,0,0,woman,,,,,,,,
+149,holly m hutchins,1,6.0,2019,psychology,0.3598862019914651,0,1,0,woman,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+160,jamison v kovach,1,6.0,2019,engineering,0.2316234796404019,0,1,0,man,44461941.0,University of Houston,1921858629.0,225511.0,R1,True,True,False
+169,shannon d willoughby,1,6.0,2018,unknown,0.1376344086021505,0,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+908,megan bruun,1,6.0,2018,physics,0.0,0,0,0,woman,23732399.0,Montana State University,4012281303.0,180461.0,R1,False,False,False
+903,courtney lennartz,3,23.0,2018,psychology,0.1666666666666666,0,0,1,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+382,nadia e brown,1,1.0,2019,political science,0.3930542031807854,41,32,23,woman,219193219.0,Purdue University,3208971139.0,243780.0,R1,False,False,False
+894,eugene ohu,1,7.0,2019,psychology,0.3205128205128205,0,0,0,man,,,,,,,,
+909,anne osezua,1,7.0,2019,psychology,0.0,0,0,0,woman,,,,,,,,
+325,orlando c richard,1,3.0,2019,psychology,0.3389238294898672,6,0,14,man,162577319.0,University of Texas at Dallas,3136594921.0,228787.0,R1,False,False,False
+499,derek r avery,1,3.0,2019,psychology,0.5500990099009901,5,0,20,man,47251452.0,Wake Forest University,2528382103.0,199847.0,R2,False,False,False
+535,aleksandra luksyte,1,3.0,2019,psychology,0.6846153846153846,1,0,1,woman,177877127.0,University of Western Australia,2585366157.0,,other,False,False,False
+897,o dorian boncoeur,1,3.0,2019,psychology,1.0,0,0,0,unknown,162577319.0,University of Texas at Dallas,3136594921.0,228787.0,R1,False,False,False
+433,lynn t singer,1,5.0,2019,medicine,0.4623015873015873,13,0,1,woman,,,,,,,,
+700,kathi n miner,4,14.0,2019,psychology,0.7505050505050505,12,1,3,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+512,adrienne r cartersowell,3,13.0,2019,psychology,0.5885057471264368,6,2,3,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+629,samantha c january,1,12.0,2019,unknown,0.3333333333333333,1,0,0,woman,,,,,,,,
+910,kelly k dray,1,12.0,2019,psychology,0.0,1,0,0,woman,,,,,,,,
+69,valerie gray hardcastle,1,3.0,2019,psychology,0.3941695247427731,2,1,1,woman,63135867.0,University of Cincinnati,3740284992.0,201885.0,R1,False,False,False
+88,farrah jacquez,1,3.0,2019,psychology,0.3581920903954802,2,2,6,woman,63135867.0,University of Cincinnati,3740284992.0,201885.0,R1,False,False,False
+973,helga van miegroet,1,5.0,2019,unknown,0.0,2,0,0,woman,,,,,,,,
+912,mary triana,1,0.0,2007,psychology,0.0,0,0,0,woman,,,,,,,,
+916,eric arredondo,1,0.0,2007,psychology,0.0,0,0,0,man,,,,,,,,
+665,anna k lee,1,12.0,2019,psychology,0.5428571428571428,1,2,4,woman,,,,,,,,
+800,jessica cannady,1,12.0,2019,medicine,0.0,0,1,0,woman,,,,,,,,
+865,maya corneille,1,12.0,2019,psychology,0.3219373219373219,10,4,4,woman,,,,,,,,
+576,sherrice allen,1,12.0,2019,biology,0.1666666666666666,0,2,0,woman,,,,,,,,
+918,alexia guess,1,12.0,2019,sociology,0.0,0,1,0,woman,,,,,,,,
+143,claudia peus,1,46.0,2019,psychology,0.3257011245088741,5,0,0,woman,62916508.0,Technische Universität München,4037261301.0,,other,False,False,False
+177,tanja hentschel,1,46.0,2019,unknown,0.3600713012477718,2,0,0,woman,62916508.0,Technische Universität München,4037261301.0,,other,False,False,False
+356,madeline e heilman,2,52.0,2019,psychology,0.6261682242990654,28,1,0,woman,57206974.0,New York University,1244502711.0,193900.0,R1,False,False,False
+445,meg a bond,2,2.0,2017,sociology,0.2774283717679944,13,1,2,woman,133738476.0,University of Massachusetts Lowell,3422667822.0,166513.0,R2,False,False,False
+861,michelle c haynesbaratz,1,0.0,2017,psychology,0.2,0,0,0,woman,,,,,,,,
+917,tugba metinyurt,1,0.0,2017,psychology,0.5,0,0,0,woman,,,,,,,,
+915,presha e neidermeyer,1,4.0,2016,psychology,0.0,0,0,0,woman,,,,,,,,
+234,fehmidah munir,1,28.0,2019,medicine,0.4024126984126984,3,0,0,unknown,143804889.0,Loughborough University,875071542.0,,other,False,False,False
+254,sarah barnard,1,28.0,2019,sociology,0.296551724137931,11,0,1,woman,143804889.0,Loughborough University,875071542.0,,other,False,False,False
+870,jessica ivy,1,0.0,2018,unknown,0.0,0,0,0,woman,,,,,,,,
+871,litany lineberry,1,0.0,2018,computer science,0.0,0,0,0,unknown,,,,,,,,
+913,c danielle grimes,1,0.0,2018,unknown,0.0,0,0,0,unknown,,,,,,,,
+914,vemitra m white,1,0.0,2018,unknown,0.0,0,0,0,unknown,,,,,,,,
+924,sarah b lee,1,0.0,2018,computer science,0.3,0,0,0,woman,,,,,,,,
+4,nana oseikofi,1,5.0,2019,sociology,0.6884057971014492,7,1,6,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+66,h tuba ozkanhaller,1,5.0,2019,geology,0.2522474881015336,0,0,0,unknown,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+462,deborah h john,1,5.0,2019,psychology,0.224390243902439,1,0,1,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+653,lisa gaines,1,5.0,2019,geography,0.1969696969696969,0,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+884,kali furman,1,5.0,2019,sociology,1.0,0,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+771,susan m shaw,1,5.0,2019,sociology,0.1809523809523809,5,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+457,cynthia lopez,1,5.0,2019,psychology,0.0,0,0,0,woman,131249849.0,Oregon State University,3009206492.0,209542.0,R1,False,False,False
+259,karen graham,1,2.0,2019,psychology,0.1142857142857142,1,0,0,woman,,,,,,,,
+422,christine m shea,1,2.0,2019,psychology,0.4926470588235294,1,0,0,woman,,,,,,,,
+444,mary fran t malone,1,2.0,2019,political science,0.552439024390244,4,0,0,woman,,,,,,,,
+893,justin r young,1,2.0,2019,psychology,1.0,1,0,0,man,,,,,,,,
+43,jammie bentonspeyers,1,4.0,2004,sociology,0.0,0,0,0,woman,,,,,,,,
+175,cecily jeser cannavale,1,4.0,2004,sociology,0.0,0,0,0,woman,,,,,,,,
+114,ron c mittelhammer,1,2.0,2019,economics,0.2533042433440839,1,0,1,man,72951846.0,Washington State University,1133568255.0,236939.0,R1,False,False,False
+676,zarrina h juraqulova,1,2.0,2019,political science,0.1666666666666666,2,0,0,woman,20577493.0,Denison University,1448468903.0,202523.0,carnegie,False,False,False
+899,marie t mora,1,0.0,2018,economics,0.1525875190258752,3,2,12,woman,,,,,,,,
+925,marci r mcmahon,1,0.0,2018,sociology,0.0,0,0,0,woman,,,,,,,,
+983,ala r qubaaj,1,0.0,2018,sociology,0.0,0,0,0,woman,,,,,,,,
+704,jeanine l skorinko,1,0.0,2019,psychology,0.4628205128205128,4,0,1,woman,107077323.0,unknown,,,,,,
+119,daniel s weller,1,0.0,2019,computer science,0.3663500678426051,1,0,0,man,,,,,,,,
+557,caitlin donahue wylie,1,0.0,2019,sociology,0.1878306878306878,2,0,0,woman,,,,,,,,
+580,gertrude fraser,1,0.0,2019,medicine,0.4166666666666667,3,0,1,woman,,,,,,,,
+926,catherine uffman,1,0.0,2019,sociology,0.0,1,0,0,woman,,,,,,,,
+158,suzette caleo,1,6.0,2019,psychology,0.4743589743589743,8,0,0,woman,121820613.0,Louisiana State University,373313306.0,159391.0,R1,False,False,False
+718,francesca manzi,1,6.0,2019,psychology,0.2857142857142857,3,0,0,woman,57206974.0,New York University,1244502711.0,193900.0,R1,False,False,False
+302,asia friedman,1,10.0,2020,sociology,0.2735632183908046,2,0,4,woman,86501945.0,University of Delaware,2223053423.0,130943.0,R1,False,False,False
+514,sue giancola,1,0.0,2019,psychology,0.0,1,0,0,woman,,,,,,,,
+673,tori c byington,1,1.0,2019,psychology,1.0,1,0,0,woman,,,,,,,,
+150,jeralynn s cossman,1,3.0,2019,medicine,0.2792349726775956,3,1,6,unknown,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+188,elizabeth heitman,1,3.0,2019,medicine,0.2086984745212593,0,0,1,woman,867280407.0,University of Texas Southwestern Medical Center,715462718.0,228635.0,carnegie,False,False,False
+706,trisha phillips,1,3.0,2019,psychology,0.1666666666666666,0,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+931,r kyle saunders,1,3.0,2019,psychology,0.0,0,0,0,unknown,103163165.0,Florida State University College of Arts and Sciences,1958822159.0,134097.0,R1,False,False,False
+307,annemarie d ross,1,0.0,2019,psychology,0.1568627450980392,1,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+443,sara schley,1,0.0,2019,psychology,0.6137566137566137,2,0,1,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+525,deborah blizzard,1,0.0,2019,psychology,0.1,3,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+919,denise s kavin,1,0.0,2019,sociology,1.0,1,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+921,karen j beiter,1,0.0,2019,sociology,1.0,1,0,0,woman,155173764.0,Rochester Institute of Technology,2498936045.0,195003.0,R2,False,False,False
+75,chris francovich,1,0.0,2019,medicine,0.2523809523809524,0,0,0,man,,,,,,,,
+107,joanne a smieja,1,0.0,2019,unknown,0.5380116959064327,0,0,0,woman,,,,,,,,
+500,roberta e sabin,1,0.0,2019,computer science,0.5274725274725275,0,0,0,woman,,,,,,,,
+641,graciela lacueva,1,0.0,2019,physics,0.2666666666666666,0,0,0,woman,,,,,,,,
+333,cathleen mcgrath,1,0.0,2019,computer science,0.1699346405228758,0,0,0,woman,,,,,,,,
+575,catherine cronin,1,0.0,2019,sociology,0.3733333333333333,1,0,0,woman,,,,,,,,
+932,ji ying song,1,0.0,2019,sociology,0.0,0,0,0,woman,,,,,,,,
+674,xiaohui zhong,1,0.0,2019,engineering,0.3,0,0,0,unknown,,,,,,,,
+95,janice voltzow,1,0.0,2019,biology,0.509090909090909,0,0,0,woman,,,,,,,,
+900,deidre wheaton,2,1.0,2019,sociology,1.0,1,3,0,woman,,,,,,,,
+930,emily alicia affolter,1,0.0,2019,political science,0.0,0,0,0,woman,,,,,,,,
+938,montana james,1,0.0,2019,political science,0.0,0,0,0,woman,,,,,,,,
+941,julie carpenterhubin,1,0.0,2015,unknown,0.0,0,0,0,woman,,,,,,,,
+945,jason sullivan,1,0.0,2015,sociology,0.0,0,0,0,man,,,,,,,,
+948,amena oliver anderson,1,2.0,2017,sociology,0.0,1,0,0,man,,,,,,,,
+907,allison mattheis,2,21.0,2019,sociology,0.1476190476190476,6,2,2,woman,27825529.0,"California State University, Los Angeles",3245209959.0,110592.0,carnegie,True,True,False
+947,megan e murphy,1,7.0,2019,medicine,0.2857142857142857,1,1,0,woman,135310074.0,University of Wisconsin-Madison,676979550.0,240444.0,R1,False,False,False
+11,judith k ockene,1,2.0,2019,medicine,0.8424027805101973,95,2,3,woman,166722992.0,University of Massachusetts Medical School,2496406692.0,166708.0,carnegie,False,False,False
+72,lori pbert,1,2.0,2019,medicine,0.6363207547169811,2,0,1,woman,166722992.0,University of Massachusetts Medical School,2496406692.0,166708.0,carnegie,False,False,False
+85,luanne e thorndyke,1,2.0,2019,medicine,0.2490118577075099,3,0,0,woman,166722992.0,University of Massachusetts Medical School,2496406692.0,166708.0,carnegie,False,False,False
+173,deborah l plummer,1,2.0,2019,psychology,0.2857142857142857,1,0,0,woman,166722992.0,University of Massachusetts Medical School,2496406692.0,166708.0,carnegie,False,False,False
+272,ivy k ho,1,2.0,2019,psychology,0.4047619047619047,4,2,4,woman,133738476.0,University of Massachusetts Lowell,3422667822.0,166513.0,R2,False,False,False
+366,rashelle b hayes,1,2.0,2019,medicine,0.5364705882352941,2,0,2,woman,184840846.0,Virginia Commonwealth University,2988816916.0,234030.0,R1,False,False,False
+388,sybil l crawford,1,2.0,2019,medicine,0.8203726065206141,34,2,6,woman,166722992.0,University of Massachusetts Medical School,2496406692.0,166708.0,carnegie,False,False,False
+539,sable a smith,1,2.0,2019,medicine,0.3333333333333333,1,0,0,woman,133738476.0,University of Massachusetts Lowell,3422667822.0,166513.0,R2,False,False,False
+567,nellie tran,1,2.0,2019,psychology,0.5,4,0,6,woman,26538001.0,San Diego State University,3013190093.0,122409.0,R2,True,True,False
+737,paula rayman,1,2.0,2019,psychology,0.1666666666666666,1,0,0,woman,133738476.0,University of Massachusetts Lowell,3422667822.0,166513.0,R2,False,False,False
+476,julie chen,1,2.0,2019,unknown,0.5277777777777778,1,0,0,woman,133738476.0,University of Massachusetts Lowell,3422667822.0,166513.0,R2,False,False,False
+949,brita dean,1,2.0,2019,psychology,0.0,1,0,0,woman,133738476.0,University of Massachusetts Lowell,3422667822.0,166513.0,R2,False,False,False
+951,patricia frankin,1,2.0,2019,psychology,0.0,1,0,0,woman,111979921.0,Northwestern University,1089840204.0,147767.0,R1,False,False,False
+282,jyotsna vaid,1,0.0,2019,psychology,0.7536346396965866,4,1,1,woman,,,,,,,,
+387,christine a stanley,1,0.0,2019,sociology,0.374390243902439,8,2,7,woman,,,,,,,,
+920,becky petitt,1,0.0,2019,sociology,0.0,0,1,0,woman,,,,,,,,
+953,advancenebraska evaluation team,1,0.0,2011,psychology,0.0,0,0,0,unknown,,,,,,,,
+955,m holmes,1,0.0,2011,psychology,0.0,0,0,0,unknown,,,,,,,,
+869,david e melnikoff,1,3.0,2019,psychology,0.638095238095238,1,0,1,man,32971472.0,Yale University,1421279711.0,130794.0,R1,False,False,False
+31,jennifer e mihalick,1,0.0,2019,unknown,0.2777777777777778,0,0,0,woman,,,,,,,,
+15,erin winterrowd,1,0.0,2019,psychology,0.3725490196078431,1,0,0,woman,,,,,,,,
+957,alexa jayne,1,0.0,2019,unknown,0.0,0,0,0,woman,,,,,,,,
+958,ashley lyons,1,0.0,2019,engineering,0.0,0,0,0,woman,,,,,,,,
+959,travis brace,1,0.0,2019,engineering,0.0,0,0,0,man,,,,,,,,
+960,maame esi coleman,1,0.0,2019,engineering,0.0,0,0,0,woman,,,,,,,,
+864,dawn culpepper,3,2.0,2020,sociology,0.25,1,0,0,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+961,sarah kilmer,1,1.0,2020,psychology,0.0,0,0,0,woman,66946132.0,"University of Maryland, College Park",3507754253.0,163286.0,R1,True,False,False
+962,annie heck,1,0.0,2020,sociology,0.0,0,0,0,woman,,,,,,,,
+986,steve clark,1,0.0,2020,sociology,0.0,0,0,0,man,,,,,,,,
+963,marc lewis,1,0.0,2017,unknown,0.0,0,0,0,man,,,,,,,,
+161,nicole t buchanan,1,12.0,2020,psychology,0.536610343061956,26,16,21,woman,87216513.0,Michigan State University,2617467897.0,171100.0,R1,False,False,False
+187,isis h settles,1,12.0,2020,psychology,0.4893483709273183,25,11,13,woman,27837315.0,University of Michigan,44098792.0,170976.0,R1,False,False,False
+785,kristie dotson,1,12.0,2020,sociology,0.4587301587301587,9,7,3,woman,87216513.0,Michigan State University,2617467897.0,171100.0,R1,False,False,False
+868,martinque k jones,1,12.0,2020,psychology,0.6877470355731226,7,12,1,unknown,123534392.0,University of North Texas,392981468.0,227216.0,R1,False,False,False
+964,nosheen jawaid khan,1,0.0,2020,political science,0.0,0,0,0,woman,84884186.0,unknown,,,,,,
+314,arlene m fiore,1,0.0,2010,unknown,0.5152415538681633,0,0,0,woman,,,,,,,,
+956,a staudt,1,0.0,2010,sociology,0.0,0,0,0,unknown,,,,,,,,
+965,a m de boer,1,0.0,2010,sociology,1.0,0,0,0,unknown,,,,,,,,
+218,t holloway,2,0.0,2010,unknown,0.3559293238192321,1,0,0,woman,,,,,,,,
+118,elizabeth long lingo,1,1.0,2019,sociology,0.2478632478632478,2,0,0,woman,,,,,,,,
+946,chrysanthe demetry,1,1.0,2019,political science,0.0,1,0,0,man,,,,,,,,
+733,jodi obrien,1,0.0,2020,sociology,0.4603174603174603,11,0,2,woman,,,,,,,,
+616,kelly m hoffman,1,2.0,2021,psychology,0.2446657183499288,0,0,11,woman,51556381.0,University of Virginia,2123654681.0,234076.0,R1,False,False,False
+790,lindsay palmer,1,2.0,2021,sociology,0.2894736842105263,4,0,0,woman,130769515.0,Pennsylvania State University,3638840717.0,214777.0,R1,False,False,False
+969,pam f rowland,1,0.0,2020,economics,0.0,1,0,0,woman,,,,,,,,
+970,alyssa m kiesow,1,0.0,2020,economics,0.0,1,0,0,woman,,,,,,,,
+971,andrea lyn liebl,1,0.0,2020,economics,0.0,1,0,0,woman,,,,,,,,
+711,mary emery,1,0.0,2020,sociology,0.1266666666666666,1,0,1,woman,,,,,,,,
+532,yisheng peng,1,0.0,2020,psychology,0.871264367816092,0,0,0,unknown,193531525.0,George Washington University,529527708.0,131469.0,R1,False,False,False
+858,peng zhao,1,0.0,2020,psychology,0.7583333333333333,1,0,2,man,592451.0,unknown,,,,,,
+199,elizabeth beise,1,0.0,2020,physics,0.8548682429742855,0,0,0,woman,,,,,,,,
+660,arelis moore de peralta,2,2.0,2020,psychology,0.2121212121212121,5,0,1,woman,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+967,cynthia m sims,3,2.0,2020,psychology,0.4502923976608187,5,0,1,woman,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+968,angela d carter,3,2.0,2020,psychology,0.7362637362637363,4,0,0,woman,8078737.0,Clemson University,4102081190.0,217882.0,R1,False,False,False
+154,asmeret asefaw berhe,3,27.0,2020,unknown,0.3242563887725178,3,0,3,woman,156087764.0,"University of California, Merced",3156865171.0,445188.0,R2,False,False,False
+364,rebecca t barnes,1,14.0,2020,unknown,0.2890350877192982,0,0,0,woman,189774192.0,Colorado College,2445539111.0,126678.0,carnegie,False,False,False
+856,blair schneider,2,15.0,2020,political science,0.1268115942028985,1,0,1,man,,,,,,,,
+795,donna j dean,1,0.0,2020,psychology,1.0,1,0,0,woman,12097938.0,West Virginia University,3704167016.0,238032.0,R1,False,False,False
+822,cynthia simpson,1,0.0,2020,psychology,1.0,1,0,0,woman,,,,,,,,
+551,laura mamo,1,1.0,2020,sociology,0.2342342342342342,16,1,1,woman,,,,,,,,
+59,diane harris,1,1.0,2020,psychology,0.0,1,1,0,woman,,,,,,,,
+702,sally g pasion,1,1.0,2020,unknown,0.1,0,1,0,woman,,,,,,,,
+636,nancy counts gerber,1,1.0,2020,unknown,0.8,0,1,0,woman,,,,,,,,
+347,carmen r domingo,1,1.0,2020,biology,0.4708994708994709,0,1,1,woman,,,,,,,,
+974,r david rebanal,1,1.0,2020,political science,0.0,0,1,0,unknown,,,,,,,,
+763,jessica m walker,1,0.0,2021,psychology,0.2,1,0,0,woman,91045830.0,Texas A&M University,40906527.0,228723.0,R1,False,False,False
+855,yimin he,2,1.0,2020,psychology,0.6153846153846154,0,0,0,unknown,122266389.0,University of Nebraska Omaha,3536273415.0,181394.0,R2,False,False,False
+975,a deboer,1,0.0,2011,sociology,0.0,1,0,0,unknown,,,,,,,,
+416,v bala chaudhary,1,12.0,2020,biology,0.4861538461538461,0,0,1,unknown,118353179.0,DePaul University,1474924469.0,144740.0,R2,False,False,False
+354,carla a zimmerman,1,1.0,2020,psychology,1.0,2,1,1,woman,114312114.0,Colorado State University–Pueblo,3534156330.0,128106.0,carnegie,True,True,False
+475,brenda major,1,24.0,2018,psychology,0.7506217958479265,14,0,7,woman,,,,,,,,
+485,bruce g link,1,24.0,2018,psychology,0.4132382768746405,17,1,21,man,,,,,,,,
+928,alena hofrova,1,0.0,2020,psychology,0.6,2,0,0,woman,,,,,,,,
+966,stephen brown,1,0.0,2020,psychology,0.8,2,0,0,man,,,,,,,,
+978,kristin k frady,1,0.0,2020,psychology,0.0,0,0,0,woman,,,,,,,,
+112,elizabeth wemlinger,1,0.0,2019,political science,0.2051282051282051,6,0,0,woman,114027177.0,University of North Carolina at Chapel Hill,1397069697.0,199120.0,R1,False,False,False
+474,sarah r grant,1,0.0,2019,biology,0.9059233449477352,5,0,0,woman,114027177.0,University of North Carolina at Chapel Hill,1397069697.0,199120.0,R1,False,False,False
+791,andrea dulin,1,0.0,2019,medicine,0.0,0,0,0,woman,114027177.0,University of North Carolina at Chapel Hill,1397069697.0,199120.0,R1,False,False,False
+979,joan lorden,1,0.0,2019,political science,0.0,0,0,0,woman,114027177.0,University of North Carolina at Chapel Hill,1397069697.0,199120.0,R1,False,False,False
+860,laura k nelson,1,1.0,2021,sociology,0.2179487179487179,3,1,1,woman,12912129.0,Northeastern University,4026457052.0,167358.0,R1,False,False,False
+989,moore de peralta md phd mph med arelis,1,0.0,2020,sociology,0.0,1,0,0,man,,,,,,,,
