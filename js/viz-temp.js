@@ -54,8 +54,8 @@ var colors = {
   "msi":{"pub":"#dbd2b1","msi":"#52B2EE","not_msi":"#aaa"},
   "msi_detail":{"pub":"#dbd2b1","hsi":"#52B2EE","not_msi":"#aaa"},
   "race":{"pub":"#dbd2b1","black":"#CF36EE","latinx":"#FFBB00","middle eastern":"#657419","south asian":"#E79146","south east asian":"#EC7A6D","east asian":"#E32525","white":"#B0C8F5","":"#999999"},
-  "discipline":{"pub":"#dbd2b1","sociology":"#DC8A98","psychology":"#F53151","political science":"#F77F54","business":"#F8CD56","economics":"#ECB51E","engineering":"#C4D08A","medicine":"#A5B363","computer science":"#8FD2BD","biology":"#8FBCC7","mathematics":"#5BA9BD","physics":"#8EA6D1","":"#999999"},
-  "doctype":{"pub":"#dbd2b1","R1":"#6dd59f","R2":"#bac910", "R3":"#fcbe4b", "carnegie":"#c91091","unknown":"#999", "other":"#666"},
+  "discipline":{"pub":"#dbd2b1","art":"#000","sociology":"#DC8A98","psychology":"#F53151","political science":"#F77F54","business":"#F8CD56","economics":"#ECB51E","engineering":"#C4D08A","medicine":"#A5B363","computer science":"#8FD2BD","biology":"#8FBCC7","mathematics":"#5BA9BD","physics":"#8EA6D1","geology":"#9c63f2","geography":"#3a0ef9","":"#999999","unknown":"#999"},
+  "doctype":{"pub":"#dbd2b1","R1":"#6dd59f","R2":"#bac910", "R3":"#fcbe4b", "carnegie":"#c91091","unknown":"#999","":"#999","other":"#666"},
 }
 var legendLabels = {
   "pub":"Publication",
@@ -76,6 +76,7 @@ var legendLabels = {
   "2000":"2000",
   "2011":"2011",
   "2022":"2022",
+  "art":"Art",
   "sociology":"Sociology",
   "psychology":"Psychology",
   "political science":"Political Science",
@@ -87,6 +88,8 @@ var legendLabels = {
   "computer science":"Computer Science",
   "mathematics":"Mathematics",
   "physics":"Physics",
+  "geology":"Geology",
+  "geography":"Geography",
   "":"Other / Unknown",
   undefined:"Other",
   "black":"Black",
@@ -106,10 +109,10 @@ var eData,eDataNP,nData, nodes=[], links=[],link,node,simulation,chosenNodes = [
 var dataFolder = "data/";
 var showPubs = true, authRings = false, curYear = 2022, curColorScheme = "type", curScaling = "cite",play=false, animationTimeout, idleTimeout,idleTimer = 1500, runIdle = false;
 
-d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( function(edgeData) {
-  d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v2.csv").then( function(edgeDataNoPubs) {
-  d3.csv(dataFolder+"ADVANCE_Outcome_Publications.csv").then( function(pubData) {
-    d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_AuthorInfo_v5.csv").then( function(authorData) {
+d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v3.csv").then( function(edgeData) {
+  d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_EdgeList_v3.csv").then( function(edgeDataNoPubs) {
+  d3.csv(dataFolder+"ADVANCE_Outcome_Publications_v3b.csv").then( function(pubData) {
+    d3.csv(dataFolder+"ADVANCE_Outcome_CoAuthor_AuthorInfo_v6.csv").then( function(authorData) {
       pubData.forEach(function(d){
         d.datef = yearParse(d.Year);//dateParse(d.Date);
         d.cite = +d.CitationCount;
@@ -121,8 +124,8 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( fun
         d.degree = 0;
       })
       authorData.forEach(function(d){
-        d.id = +d.AuthorId;
-        d.idNP = +d.NetworkId;
+        d.id = +d.NetworkId;
+        console.log(+d.NetworkId);
         d.datef = yearParse(d.FirstYear);
         d.cite = +d.TotalCitations;
         d.type = "author";
@@ -131,7 +134,8 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( fun
         d.network = false;
         d.gender = d.AuthorGender;
         d.doctype = d.carnegie_doctoral_type;
-        d.discipline = d.PrimaryField;
+        //d.discipline = d.PrimaryField;
+        d.discipline = d.AuthorTopField;
         d.race = d.AuthorRace;
         d.degree = 0;
 
@@ -155,7 +159,7 @@ d3.csv(dataFolder+"ADVANCE_Outcome_AuthorPublication_EdgeList_v2.csv").then( fun
       edgeData.forEach(function(d){
         d.datef = yearParse(d.Year);
         d.network = false;
-        d.source = {id: +d.AuthorId};
+        d.source = {id: +d.NetworkId};
         d.target = {id: +d.PublicationId};
         d.type = "pub";
       });
@@ -270,24 +274,9 @@ function makeNodesLinks(){
     else{
       d.network = false;
       for(n=nodes.length-1;n>=0;n--){
-        if(nodes[n].id == d.id || nodes[n].id == d.idNP){
+        if(nodes[n].id == d.id){
           nodes.splice(n,1);
           break;
-        }
-      }
-    }
-
-    //if show pubs then use auth/pub id's, else use NetworkId
-    for(n=0;n<nodes.length;n++){
-      if(nodes[n].id == d.id || nodes[n].id == d.idNP){
-        if(showPubs){
-          if(nodes[n].type == "author"){
-            nodes[n].id = d.id
-          }
-        }else{
-          if(nodes[n].type == "author"){
-            nodes[n].id = d.idNP
-          }
         }
       }
     }
@@ -479,8 +468,7 @@ function reColor(colorBy){
 
   nData.forEach(function(d){
     var c = d[colorBy];
-    var idToUse = d.idNP;
-    if(showPubs){idToUse = d.id}
+    var idToUse = d.id
     d3.select("#node-"+idToUse).attr("fill",function(e){
       if(e.type == "pub"){
         return colors[colorBy].pub;
